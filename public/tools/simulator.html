@@ -240,6 +240,7 @@
 
     <div id="controls">
         <h2>TVC Transom Diagnostics</h2>
+        <div class="stat">NOZZLE TYPE: <span class="value">FLAT SHEET</span></div>
         <div class="stat">ENVIRONMENT: <span class="value">OPEN WATER</span></div>
         <div id="status-line" class="stat">STATUS: <span class="value">NOMINAL</span></div>
         <div class="stat">THRUST_LVL: <span id="thrust-val" class="value">60</span>%</div>
@@ -496,31 +497,99 @@
         }
 
         function drawTransomArray(jets, braking) {
-            const barWidth = 10;
-            const startX = -35 + (barWidth/2);
-            for(let i=0; i<7; i++) {
+            const totalWidth = 70;
+            const startX = -35;
+            const barWidth = totalWidth / 7;
+
+            // Draw the continuous nozzle base (the transom line)
+            noStroke();
+            fill(60, 70, 90);
+            rect(startX, 76, totalWidth, 6, 2);
+
+            // Draw individual nozzle indicators (subtle — they merge into one sheet)
+            for(let i = 0; i < 7; i++) {
                 let t = jets[i];
                 let x = startX + (i * barWidth);
 
                 if (braking) {
                     fill(255, 107, 107, 220);
-                    rect(x - (barWidth/2) + 1, 75, barWidth - 1, 10);
+                    rect(x + 1, 75, barWidth - 1, 10, 1);
                 } else {
-                    noStroke();
-                    // Ocean teal gradient: brighter at top, deeper at base
+                    // Nozzle intensity glow
                     let teal = lerpColor(
-                        color(13, 212, 176, 200),
-                        color(13, 180, 150, 180),
+                        color(13, 212, 176, 180),
+                        color(13, 180, 150, 160),
                         t
                     );
                     fill(teal);
-                    rect(x - (barWidth/2) + 1, 81, barWidth - 1, 15 * t);
+                    rect(x + 1, 81, barWidth - 1, 12 * t, 1);
                 }
-
-                stroke(255, 255, 255, 100);
-                strokeWeight(braking ? 2 : 1);
-                line(x, 81, x, 81 + (t * (braking ? 40 : 70)));
             }
+
+            // Draw the flat sheet jet — a continuous trapezoid emanating from the nozzle line
+            noStroke();
+            let maxSheetLen = 70;
+            let sheetTop = 82;
+            let sheetBottom = 82;
+            let sheetLen = 0;
+
+            // Average thrust determines sheet length
+            let avgThrust = jets.reduce((a, b) => a + b, 0) / 7;
+            sheetLen = avgThrust * maxSheetLen;
+
+            if (sheetLen > 2) {
+                // Sheet jet body — continuous trapezoid (wider at bottom)
+                let topWidth = totalWidth * 0.85;
+                let botWidth = totalWidth * 1.15;
+                let topX = -topWidth / 2;
+                let botX = -botWidth / 2;
+
+                // Gradient opacity: brighter near nozzle, fading downstream
+                let alpha1 = Math.floor(40 + avgThrust * 30);
+                let alpha2 = Math.floor(15 + avgThrust * 15);
+
+                // Draw as a filled shape
+                fill(13, 212, 176, alpha1);
+                beginShape();
+                vertex(topX, sheetTop);
+                vertex(topX + topWidth, sheetTop);
+                vertex(botX + botWidth, sheetTop + sheetLen);
+                vertex(botX, sheetTop + sheetLen);
+                endShape(CLOSE);
+
+                // Inner brighter core
+                let coreTopWidth = topWidth * 0.6;
+                let coreBotWidth = botWidth * 0.5;
+                let coreTopX = -coreTopWidth / 2;
+                let coreBotX = -coreBotWidth / 2;
+                fill(13, 212, 176, alpha2 + 20);
+                beginShape();
+                vertex(coreTopX, sheetTop);
+                vertex(coreTopX + coreTopWidth, sheetTop);
+                vertex(coreBotX + coreBotWidth, sheetTop + sheetLen * 0.85);
+                vertex(coreBotX, sheetTop + sheetLen * 0.85);
+                endShape(CLOSE);
+
+                // Flow lines inside the sheet (3 lines)
+                stroke(255, 255, 255, 25);
+                strokeWeight(0.5);
+                for (let fi = 0; fi < 3; fi++) {
+                    let fx = lerp(topX + topWidth * 0.2, botX + botWidth * 0.2, fi / 2);
+                    let fxEnd = lerp(topX + topWidth * 0.8, botX + botWidth * 0.8, fi / 2);
+                    line(fx, sheetTop + 2, fxEnd, sheetTop + sheetLen - 2);
+                }
+                noStroke();
+            }
+
+            // Individual jet lines (very subtle — showing the 7 nozzles are there)
+            stroke(255, 255, 255, 30);
+            strokeWeight(0.5);
+            for(let i = 0; i < 7; i++) {
+                let t = jets[i];
+                let x = startX + (i * barWidth) + barWidth / 2;
+                line(x, 81, x, 81 + (t * 25));
+            }
+            noStroke();
         }
 
         class WaterParticle {

@@ -7,8 +7,8 @@ import Layout from '../layouts/Layout.astro';
     <!-- Hero -->
     <section class="tech-hero animate-in">
       <h1 class="page-title">
-        Active Boundary Layer<br />
-        <span class="electric-text">Thrust Vectoring</span>
+        Thrust Vector Control<br />
+        <span class="electric-text">TVC</span>
       </h1>
       <p class="page-subtitle">
         The culmination of digital fluid dynamic control. TVC replaces every mechanical control surface 
@@ -142,6 +142,105 @@ import Layout from '../layouts/Layout.astro';
           <div class="principle-number">03</div>
           <h3>Software-Defined Vectoring</h3>
           <p>Yaw, pitch, and roll vectors are calculated and executed in software. No mechanical linkages, no moving parts below the waterline — just digital precision controlling fluid dynamics at the interface.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Horizontal Nozzle Design -->
+    <hr class="divider" />
+    <section class="content-section animate-in delay-2">
+      <h2 class="section-title">Horizontal Nozzle Design</h2>
+      <p class="section-subtitle">Flattened Venturi nozzles. Rectangular sheet jets. Zero interference.</p>
+
+      <div class="physics-grid">
+        <div class="glass-box physics-card physics-full">
+          <h3>Not Round Jets — A Flat Sheet</h3>
+          <p>Conventional jet propulsion uses circular nozzles. Each nozzle produces a discrete round jet — a column of high-velocity water. When you arrange multiple round jets in a row, you get an array of individual jets with gaps between them. Each jet creates its own wake, its own turbulence pattern, and its own interference with neighboring jets.</p>
+          <p style="margin-top: 1rem;"><strong style="color: var(--cyan);">Fluidity Marine's nozzles are not circular.</strong> Each nozzle is a <strong>flattened Venturi</strong> — a rectangular channel with rounded edges. Instead of a round exit producing a column of water, the exit is a wide, flat rectangle. The result is not a jet — it's a <strong>sheet</strong>.</p>
+        </div>
+
+        <div class="glass-box physics-card">
+          <h3>The Flat Sheet Jet</h3>
+          <p>When all 7 nozzles fire together, their individual rectangular exits merge into a <strong>continuous flat sheet of water</strong> that spans the entire lower transom line. Not 7 separate jets. One unified sheet.</p>
+          <p class="physics-highlight">Think of it like the difference between a showerhead (discrete streams) and a waterfall (continuous sheet). The sheet couples more smoothly with the boundary layer below it.</p>
+        </div>
+
+        <div class="glass-box physics-card">
+          <h3>Why the Sheet Matters</h3>
+          <p><strong>Boundary layer coupling:</strong> A flat sheet jet has far more contact area with the hull boundary layer than the same flow rate through round jets. More contact area = more efficient momentum transfer = more steering authority per unit of pump power.</p>
+          <p style="margin-top: 0.75rem;"><strong>No jet-to-jet interference:</strong> Round jets in an array create complex interference patterns where adjacent wakes collide. A continuous sheet has no gaps, no interference zones, and no wasted energy between jets.</p>
+        </div>
+
+        <div class="glass-box physics-card">
+          <h3>Rounded Edges & Venturi Profile</h3>
+          <p>The rectangular channel's <strong>rounded edges</strong> are critical. Sharp corners in a non-circular nozzle would cause flow separation — the water would detach from the wall, creating vortices and reducing efficiency.</p>
+          <p style="margin-top: 0.75rem;">The <strong>Venturi profile</strong> accelerates water smoothly from inlet to throat to exit, maximizing exit velocity for a given pump pressure while keeping the flow attached to the channel walls.</p>
+        </div>
+
+        <div class="glass-box physics-card physics-full">
+          <h3>Nozzle Cross-Section</h3>
+          <div class="nozzle-diagram" style="margin-top: 1.5rem;">
+            <svg viewBox="0 0 700 220" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:100%; height:auto;">
+              <!-- Background -->
+              <rect x="0" y="0" width="700" height="220" fill="rgba(10,18,30,0.5)" rx="12"/>
+
+              <!-- Inlet (circular) -->
+              <circle cx="80" cy="110" r="40" fill="rgba(0,240,255,0.06)" stroke="rgba(0,240,255,0.3)" stroke-width="1.5"/>
+              <circle cx="80" cy="110" r="25" fill="rgba(0,240,255,0.04)" stroke="rgba(0,240,255,0.2)" stroke-width="1"/>
+              <text x="80" y="114" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="9" font-family="Inter">INLET</text>
+              <text x="80" y="175" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="8" font-family="Inter">Circular</text>
+
+              <!-- Transition / Venturi body -->
+              <path d="M120 70 L280 40 L420 40 L540 60" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
+              <path d="M120 150 L280 180 L420 180 L540 160" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
+              <path d="M120 70 L120 150" stroke="rgba(0,240,255,0.15)" stroke-width="1"/>
+              <path d="M540 60 L540 160" stroke="rgba(0,240,255,0.15)" stroke-width="1"/>
+
+              <!-- Venturi body fill -->
+              <path d="M120 70 L280 40 L420 40 L540 60 L540 160 L420 180 L280 180 L120 150 Z" fill="rgba(0,240,255,0.03)" stroke="rgba(0,240,255,0.2)" stroke-width="1"/>
+
+              <!-- Flow arrows inside -->
+              <path d="M160 110 L220 110" stroke="rgba(0,240,255,0.3)" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <path d="M300 110 L360 110" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <path d="M440 110 L500 110" stroke="rgba(0,240,255,0.5)" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+
+              <!-- Throat label -->
+              <text x="300" y="30" text-anchor="middle" fill="rgba(0,240,255,0.4)" font-size="8" font-family="Inter">Throat (minimum area)</text>
+              <line x1="300" y1="35" x2="300" y2="42" stroke="rgba(0,240,255,0.2)" stroke-width="0.5"/>
+
+              <!-- Exit (rectangular with rounded edges) -->
+              <rect x="540" y="55" width="80" height="110" rx="12" ry="12" fill="rgba(0,240,255,0.06)" stroke="rgba(0,240,255,0.35)" stroke-width="1.5"/>
+              <text x="580" y="100" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="9" font-family="Inter" font-weight="600">EXIT</text>
+              <text x="580" y="115" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="8" font-family="Inter">Rectangular</text>
+              <text x="580" y="130" text-anchor="middle" fill="rgba(148,163,184,0.3)" font-size="7" font-family="Inter">rounded edges</text>
+
+              <!-- Sheet jet exiting -->
+              <path d="M620 60 C640 60, 660 65, 680 70" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              <path d="M620 160 C640 160, 660 155, 680 150" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              <path d="M620 60 L680 70" stroke="rgba(0,240,255,0.15)" stroke-width="0.5"/>
+              <path d="M620 160 L680 150" stroke="rgba(0,240,255,0.15)" stroke-width="0.5"/>
+
+              <!-- Sheet jet fill -->
+              <path d="M620 60 L680 70 L680 150 L620 160 Z" fill="rgba(0,240,255,0.06)"/>
+
+              <!-- Sheet label -->
+              <text x="665" y="115" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="8" font-family="Inter" font-weight="600">SHEET</text>
+              <text x="665" y="127" text-anchor="middle" fill="rgba(0,240,255,0.35)" font-size="7" font-family="Inter">JET</text>
+
+              <!-- Dimension arrows -->
+              <line x1="540" y1="45" x2="620" y2="45" stroke="rgba(148,163,184,0.2)" stroke-width="0.5"/>
+              <line x1="540" y1="48" x2="540" y2="42" stroke="rgba(148,163,184,0.2)" stroke-width="0.5"/>
+              <line x1="620" y1="48" x2="620" y2="42" stroke="rgba(148,163,184,0.2)" stroke-width="0.5"/>
+              <text x="580" y="42" text-anchor="middle" fill="rgba(148,163,184,0.3)" font-size="7" font-family="Inter">wide</text>
+
+              <defs>
+                <marker id="arrowCyan" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
+                  <path d="M0,0 L6,3 L0,6" fill="rgba(0,240,255,0.5)"/>
+                </marker>
+              </defs>
+            </svg>
+          </div>
+          <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem;">Each nozzle transitions from a circular inlet through a Venturi throat to a rectangular exit with rounded edges. The 7 nozzles together produce a continuous flat sheet jet across the transom.</p>
         </div>
       </div>
     </section>
