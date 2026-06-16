@@ -1,6 +1,6 @@
-# Diligence: ABLTV Technical Moat
+# Diligence: TVC Technical Moat
 
-## Active Boundary Layer Thrust Vectoring (ABLTV)
+## Thrust Vector Control (TVC)
 
 The core technical advantage of Fluidity Marine is the elimination of mechanical rudders in favor of digital hydrodynamic modulation.
 

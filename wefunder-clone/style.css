@@ -1,0 +1,418 @@
+/* Fluidity Marine — Wefunder Campaign Clone */
+/* Electric Design System: #0A0E14 bg | #00F0FF cyan | #FFB800 amber */
+
+:root {
+  --bg-primary: #0A0E14;
+  --bg-secondary: #11161E;
+  --bg-card: #161B25;
+  --border: #1E293B;
+  --cyan: #00F0FF;
+  --amber: #FFB800;
+  --text-primary: #E2E8F0;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+  --green: #4ADE80;
+  --red: #F87171;
+  --radius: 12px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Status Bar ─────────── */
+.status-bar {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.badge-draft {
+  background: rgba(255, 184, 0, 0.12);
+  color: var(--amber);
+  border: 1px solid rgba(255, 184, 0, 0.25);
+}
+
+.badge-draft::before {
+  content: '';
+  width: 6px; height: 6px;
+  background: var(--amber);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* ── Hero ──────────────── */
+.hero {
+  padding: 64px 0 48px;
+  text-align: center;
+}
+
+.hero-cover {
+  width: 100%;
+  height: 340px;
+  border-radius: var(--radius);
+  background: linear-gradient(135deg, #0a1628 0%, #0d2137 30%, #0c1a2a 60%, #0a0e14 100%);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.hero-cover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 70%, rgba(0, 240, 255, 0.06) 0%, transparent 60%),
+              radial-gradient(ellipse at 70% 30%, rgba(255, 184, 0, 0.04) 0%, transparent 50%);
+}
+
+.hero-cover-text {
+  text-align: center;
+  z-index: 1;
+  padding: 0 40px;
+}
+
+.hero-cover-text h2 {
+  font-size: 2rem;
+  color: var(--cyan);
+  font-weight: 700;
+  line-height: 1.3;
+  text-shadow: 0 0 40px rgba(0, 240, 255, 0.15);
+}
+
+.hero-cover-text .sub {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  margin-top: 8px;
+}
+
+.hero-logo {
+  position: absolute;
+  bottom: 20px;
+  right: 24px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: 0.03em;
+}
+
+.company-name {
+  font-size: 2.2rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.tagline {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meta-row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.meta-row span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.meta-row .link {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.meta-row .link:hover { text-decoration: underline; }
+
+/* ── Sections ──────────── */
+.section {
+  padding: 48px 0;
+  border-top: 1px solid var(--border);
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.section-body {
+  color: var(--text-secondary);
+  font-size: 1.05rem;
+  line-height: 1.75;
+  margin-bottom: 24px;
+}
+
+/* ── Highlights ────────── */
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.highlight-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  transition: border-color 0.2s;
+}
+
+.highlight-card:hover {
+  border-color: rgba(0, 240, 255, 0.25);
+}
+
+.highlight-card .icon {
+  color: var(--cyan);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.highlight-card h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.highlight-card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* ── Team ──────────────── */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.team-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-align: center;
+}
+
+.team-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, rgba(0, 240, 255, 0.15), rgba(0, 240, 255, 0.05));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--cyan);
+}
+
+.team-card h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.team-card .role {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.team-card .founder-tag {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 2px 10px;
+  background: rgba(255, 184, 0, 0.1);
+  color: var(--amber);
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* ── Round ─────────────── */
+.round-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.round-stat {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  text-align: center;
+}
+
+.round-stat .value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--cyan);
+}
+
+.round-stat .label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ── Use of Funds ──────── */
+.funds-list {
+  margin-top: 24px;
+}
+
+.fund-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.fund-item:last-child { border-bottom: none; }
+
+.fund-bar-wrap {
+  flex: 1;
+  height: 8px;
+  background: var(--bg-card);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.fund-bar {
+  height: 100%;
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+
+.fund-bar.cyan { background: var(--cyan); }
+.fund-bar.amber { background: var(--amber); }
+.fund-bar.green { background: var(--green); }
+.fund-bar.muted { background: var(--text-muted); }
+
+.fund-label {
+  min-width: 180px;
+  font-size: 0.9rem;
+}
+
+.fund-amount {
+  min-width: 80px;
+  text-align: right;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+}
+
+.fund-pct {
+  min-width: 50px;
+  text-align: right;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* ── CTA ───────────────── */
+.cta-section {
+  padding: 48px 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 16px 48px;
+  background: linear-gradient(135deg, var(--cyan), #00c8d4);
+  color: #0A0E14;
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.cta-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 240, 255, 0.25);
+}
+
+.cta-note {
+  margin-top: 16px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ── Footer ────────────── */
+.footer {
+  padding: 32px 0;
+  border-top: 1px solid var(--border);
+  text-align: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.footer a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover { color: var(--cyan); }
+
+/* ── Responsive ────────── */
+@media (max-width: 600px) {
+  .hero-cover { height: 220px; }
+  .hero-cover-text h2 { font-size: 1.3rem; }
+  .company-name { font-size: 1.6rem; }
+  .round-grid { grid-template-columns: repeat(2, 1fr); }
+  .fund-label { min-width: 120px; font-size: 0.8rem; }
+}

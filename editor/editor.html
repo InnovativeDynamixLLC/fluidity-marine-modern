@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fluidity Site Editor</title>
+<link rel="stylesheet" href="https://unpkg.com/grapesjs/dist/css/grapes.min.css">
+<style>
+  body, html { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+  #gjs { height: 100%; }
+  
+  /* Dark theme overrides for GrapesJS panels */
+  .gjs-one-bg { background-color: #1A1A2E; }
+  .gjs-two-color { color: #E2E8F0; }
+  .gjs-three-bg { background-color: #0A0A0F; border-bottom: 1px solid #00F0FF33; }
+  .gjs-four-color { color: #00F0FF; }
+  .gjs-four-color-h:hover { color: #00F0FF; }
+  
+  /* Top toolbar */
+  .editor-toolbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: #0A0A0F; border-bottom: 2px solid #00F0FF;
+    padding: 0.5rem 1rem; display: flex; align-items: center; gap: 1rem;
+  }
+  .editor-toolbar h1 {
+    font-family: 'Space Grotesk', sans-serif; font-size: 1.1rem;
+    color: #00F0FF; margin: 0; white-space: nowrap;
+  }
+  .editor-toolbar select, .editor-toolbar button {
+    background: #1A1A2E; color: #E2E8F0; border: 1px solid #00F0FF44;
+    padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.85rem;
+    cursor: pointer;
+  }
+  .editor-toolbar button:hover { border-color: #00F0FF; }
+  .editor-toolbar button.save-btn { background: #00F0FF22; border-color: #00F0FF; color: #00F0FF; font-weight: 600; }
+  .editor-toolbar .status { color: #8899B4; font-size: 0.8rem; margin-left: auto; }
+  
+  /* Override GrapesJS canvas top to account for our toolbar */
+  .gjs-editor { padding-top: 48px !important; }
+
+  /* Dark panel styling */
+  .gjs-pn-panel { background: #1A1A2E !important; }
+  .gjs-pn-btn { color: #E2E8F0 !important; }
+  .gjs-pn-btn.gjs-pn-active { color: #00F0FF !important; background: #00F0FF15 !important; }
+  .gjs-block { background: #0A0A0F !important; border-color: #1A1A2E !important; }
+  .gjs-block:hover { border-color: #00F0FF44 !important; }
+  .gjs-block .gjs-block-label { color: #E2E8F0 !important; }
+  .gjs-field { background: #0A0A0F !important; color: #E2E8F0 !important; border-color: #1A1A2E !important; }
+  .gjs-field input, .gjs-field select, .gjs-field textarea { background: #0A0A0F !important; color: #E2E8F0 !important; }
+  .gjs-cv-canvas { background: #1c1c2e !important; }
+</style>
+</head>
+<body>
+<div class="editor-toolbar">
+  <h1>⚡ Fluidity Site Editor</h1>
+  <select id="page-select" onchange="loadPage(this.value)">
+    <option value="">— Select a page —</option>
+  </select>
+  <button class="save-btn" onclick="savePage()">💾 Save</button>
+  <button onclick="exportHTML()">📋 Export HTML</button>
+  <button onclick="viewPage()">👁 Preview</button>
+  <span class="status" id="status">Ready</span>
+</div>
+<div id="gjs"></div>
+
+<script src="https://unpkg.com/grapesjs"></script>
+<script>
+let currentFile = '';
+
+const editor = grapesjs.init({
+  container: '#gjs',
+  height: '100%',
+  storageManager: false,
+  plugins: [],
+  canvas: {
+    styles: [
+      'https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Space+Grotesk:wght@600;800&display=swap'
+    ]
+  },
+  deviceManager: {
+    devices: [
+      { name: 'Desktop', width: '' },
+      { name: 'Tablet', width: '768px', widthMedia: '768px' },
+      { name: 'Mobile', width: '375px', widthMedia: '375px' },
+    ]
+  },
+  panels: { defaults: [] },
+  selectorManager: { componentFirst: true },
+  styleManager: {
+    sectors: [{
+      name: 'General', open: true,
+      properties: ['display', 'position', 'top', 'right', 'left', 'bottom', 'float', 'width', 'height', 'margin', 'padding']
+    },{
+      name: 'Typography', open: false,
+      properties: ['font-family', 'font-size', 'font-weight', 'letter-spacing', 'color', 'line-height', 'text-align', 'text-shadow']
+    },{
+      name: 'Decorations', open: false,
+      properties: ['background-color', 'border-radius', 'border', 'box-shadow', 'background']
+    }]
+  }
+});
+
+// ── Page Management ──────────────────────────────────────────
+
+async function refreshPageList() {
+  try {
+    const r = await fetch('/editor/pages');
+    const pages = await r.json();
+    const sel = document.getElementById('page-select');
+    sel.innerHTML = '<option value="">— Select a page —</option>' +
+      pages.map(p => `<option value="${p.path}">${p.name}</option>`).join('');
+  } catch(e) {
+    console.error('Failed to load page list:', e);
+  }
+}
+
+async function loadPage(path) {
+  if (!path) return;
+  setStatus('Loading...');
+  try {
+    const r = await fetch(`/editor/load?path=${encodeURIComponent(path)}`);
+    const data = await r.json();
+    if (data.error) { setStatus('Error: ' + data.error); return; }
+    
+    currentFile = path;
+    editor.setComponents(data.html);
+    if (data.css) editor.setStyle(data.css);
+    setStatus(`Loaded: ${path}`);
+  } catch(e) {
+    setStatus('Failed to load: ' + e.message);
+  }
+}
+
+async function savePage() {
+  if (!currentFile) { setStatus('No page loaded'); return; }
+  setStatus('Saving...');
+  try {
+    const html = editor.getHtml();
+    const css = editor.getCss();
+    const r = await fetch('/editor/save', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({path: currentFile, html, css})
+    });
+    const data = await r.json();
+    setStatus(data.error ? 'Error: ' + data.error : '✓ Saved!');
+  } catch(e) {
+    setStatus('Save failed: ' + e.message);
+  }
+}
+
+function exportHTML() {
+  const html = editor.getHtml();
+  const css = editor.getCss();
+  const full = `<!DOCTYPE html>\n<html>\n<head>\n<style>\n${css}\n</style>\n</head>\n<body>\n${html}\n</body>\n</html>`;
+  
+  const blob = new Blob([full], {type: 'text/html'});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = (currentFile || 'export') + '.html';
+  a.click();
+  URL.revokeObjectURL(url);
+  setStatus('Exported!');
+}
+
+function viewPage() {
+  if (currentFile) {
+    window.open('/editor/preview?path=' + encodeURIComponent(currentFile), '_blank');
+  }
+}
+
+function setStatus(msg) {
+  const el = document.getElementById('status');
+  el.textContent = msg;
+  setTimeout(() => { if (el.textContent === msg) el.textContent = 'Ready'; }, 3000);
+}
+
+// Init
+refreshPageList();
+editor.on('load', () => setStatus('Editor ready'));
+</script>
+</body>
+</html>

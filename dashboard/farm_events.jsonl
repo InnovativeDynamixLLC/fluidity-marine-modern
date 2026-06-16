@@ -1,0 +1,844 @@
+{"ts": "2026-06-10T18:35:51.216792", "event": "orphan_reap", "requeued": 4, "failed": 0}
+{"ts": "2026-06-10T18:35:54.379775", "event": "task_dispatched", "task_id": 4897, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 84817}
+{"ts": "2026-06-10T18:36:03.492331", "event": "task_dispatched", "task_id": 4898, "model": "qwen2.5:7b", "task_type": "content-strategy", "pid": 85520}
+{"ts": "2026-06-10T18:36:13.331573", "event": "task_dispatched", "task_id": 4956, "model": "llama3.2:3b", "task_type": "", "pid": 86220}
+{"ts": "2026-06-10T18:36:23.288017", "event": "task_dispatched", "task_id": 4878, "model": "qwen2.5:14b", "task_type": "press-release", "pid": 86948}
+{"ts": "2026-06-10T18:36:35.304859", "event": "task_completed", "task_id": 4956, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 4.0, "elapsed_seconds": 20.33, "error": null}
+{"ts": "2026-06-10T18:36:39.142958", "event": "task_dispatched", "task_id": 4929, "model": "llama3.2:3b", "task_type": "alt-text", "pid": 87658}
+{"ts": "2026-06-10T18:37:06.243997", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-10T18:38:42.345877", "event": "task_failed", "task_id": 4929, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:38:46.444847", "event": "task_dispatched", "task_id": 4930, "model": "llama3.2:3b", "task_type": "email-subject", "pid": 89159}
+{"ts": "2026-06-10T18:40:14.439332", "event": "task_completed", "task_id": 4930, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.8, "elapsed_seconds": 86.5, "error": null}
+{"ts": "2026-06-10T18:40:18.173776", "event": "task_dispatched", "task_id": 4931, "model": "llama3.2:3b", "task_type": "seo", "pid": 90438}
+{"ts": "2026-06-10T18:40:57.191031", "event": "task_failed", "task_id": 4897, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:41:01.926809", "event": "task_dispatched", "task_id": 4899, "model": "qwen2.5:7b", "task_type": "content-video", "pid": 91335}
+{"ts": "2026-06-10T18:41:04.940672", "event": "task_failed", "task_id": 4898, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:41:11.624667", "event": "task_dispatched", "task_id": 4900, "model": "qwen2.5:7b", "task_type": "press-kit", "pid": 91975}
+{"ts": "2026-06-10T18:42:20.693489", "event": "task_failed", "task_id": 4931, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:42:24.238014", "event": "task_dispatched", "task_id": 4932, "model": "llama3.2:3b", "task_type": "social-engagement", "pid": 93097}
+{"ts": "2026-06-10T18:44:27.361933", "event": "task_failed", "task_id": 4932, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:44:30.935791", "event": "task_dispatched", "task_id": 4933, "model": "llama3.2:3b", "task_type": "pitch", "pid": 94542}
+{"ts": "2026-06-10T18:45:37.007701", "event": "task_completed", "task_id": 4878, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.0, "elapsed_seconds": 551.68, "error": "dashboard restarted \u2014 re-queued (attempt 1/1)"}
+{"ts": "2026-06-10T18:45:40.513891", "event": "task_dispatched", "task_id": 4879, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 95610}
+{"ts": "2026-06-10T18:46:04.528877", "event": "task_failed", "task_id": 4899, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:46:07.771703", "event": "task_dispatched", "task_id": 4901, "model": "qwen2.5:7b", "task_type": "social-facebook", "pid": 96350}
+{"ts": "2026-06-10T18:46:13.783370", "event": "task_failed", "task_id": 4900, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:46:17.607763", "event": "task_dispatched", "task_id": 4902, "model": "qwen2.5:7b", "task_type": "campaign", "pid": 96938}
+{"ts": "2026-06-10T18:46:32.643902", "event": "task_failed", "task_id": 4933, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:46:36.027289", "event": "task_dispatched", "task_id": 4934, "model": "llama3.2:3b", "task_type": "benefits", "pid": 97567}
+{"ts": "2026-06-10T18:48:21.166514", "event": "task_completed", "task_id": 4934, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.8, "elapsed_seconds": 103.2, "error": null}
+{"ts": "2026-06-10T18:48:24.520899", "event": "task_dispatched", "task_id": 4935, "model": "llama3.2:3b", "task_type": "social-emoji", "pid": 98852}
+{"ts": "2026-06-10T18:50:28.563052", "event": "task_failed", "task_id": 4935, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:50:32.005834", "event": "task_dispatched", "task_id": 4936, "model": "llama3.2:3b", "task_type": "content-thumbnail", "pid": 100246}
+{"ts": "2026-06-10T18:51:08.065539", "event": "task_failed", "task_id": 4901, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:51:11.076102", "event": "task_dispatched", "task_id": 4903, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 101024}
+{"ts": "2026-06-10T18:51:20.092226", "event": "task_failed", "task_id": 4902, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:51:23.062359", "event": "task_dispatched", "task_id": 4904, "model": "qwen2.5:7b", "task_type": "social-reddit", "pid": 101601}
+{"ts": "2026-06-10T18:51:26.075906", "event": "task_completed", "task_id": 4936, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.6, "elapsed_seconds": 50.75, "error": null}
+{"ts": "2026-06-10T18:51:33.268710", "event": "task_dispatched", "task_id": 4937, "model": "llama3.2:3b", "task_type": "copy-pain-points", "pid": 102132}
+{"ts": "2026-06-10T18:53:36.931708", "event": "task_failed", "task_id": 4937, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:53:40.016058", "event": "task_dispatched", "task_id": 4938, "model": "llama3.2:3b", "task_type": "social-hooks", "pid": 103499}
+{"ts": "2026-06-10T18:55:43.671963", "event": "task_failed", "task_id": 4938, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:55:46.482467", "event": "task_dispatched", "task_id": 4939, "model": "llama3.2:3b", "task_type": "brand", "pid": 104851}
+{"ts": "2026-06-10T18:56:13.573484", "event": "task_failed", "task_id": 4903, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:56:16.371817", "event": "task_dispatched", "task_id": 4905, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 105533}
+{"ts": "2026-06-10T18:56:25.382773", "event": "task_failed", "task_id": 4904, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T18:56:28.246729", "event": "task_dispatched", "task_id": 4906, "model": "qwen2.5:7b", "task_type": "email-campaign", "pid": 106044}
+{"ts": "2026-06-10T18:56:43.799715", "event": "task_completed", "task_id": 4939, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.5, "elapsed_seconds": 55.88, "error": null}
+{"ts": "2026-06-10T18:56:46.590831", "event": "task_dispatched", "task_id": 4940, "model": "llama3.2:3b", "task_type": "social-bio", "pid": 106591}
+{"ts": "2026-06-10T18:58:47.523939", "event": "task_completed", "task_id": 4940, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.7, "elapsed_seconds": 118.86, "error": null}
+{"ts": "2026-06-10T18:58:50.186862", "event": "task_dispatched", "task_id": 4941, "model": "llama3.2:3b", "task_type": "social-engagement", "pid": 107886}
+{"ts": "2026-06-10T19:00:41.313005", "event": "task_failed", "task_id": 4879, "status": "failed", "model": "qwen2.5:14b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:14b (timeout=900s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:00:44.861823", "event": "task_dispatched", "task_id": 4880, "model": "qwen2.5:14b", "task_type": "blog", "pid": 109129}
+{"ts": "2026-06-10T19:00:50.875692", "event": "task_failed", "task_id": 4941, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:00:53.457727", "event": "task_dispatched", "task_id": 4942, "model": "llama3.2:3b", "task_type": "brand", "pid": 109589}
+{"ts": "2026-06-10T19:01:17.467689", "event": "task_failed", "task_id": 4905, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:01:19.786658", "event": "task_dispatched", "task_id": 4907, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 110151}
+{"ts": "2026-06-10T19:01:28.798991", "event": "task_failed", "task_id": 4906, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:01:31.216733", "event": "task_dispatched", "task_id": 4908, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 110622}
+{"ts": "2026-06-10T19:02:44.359021", "event": "task_completed", "task_id": 4942, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.5, "elapsed_seconds": 108.8, "error": null}
+{"ts": "2026-06-10T19:02:46.685808", "event": "task_dispatched", "task_id": 4943, "model": "llama3.2:3b", "task_type": "seo", "pid": 111541}
+{"ts": "2026-06-10T19:04:49.810858", "event": "task_failed", "task_id": 4943, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:04:52.505252", "event": "task_dispatched", "task_id": 4944, "model": "llama3.2:3b", "task_type": "blog-titles", "pid": 112776}
+{"ts": "2026-06-10T19:06:22.603250", "event": "task_failed", "task_id": 4907, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:06:24.909851", "event": "task_dispatched", "task_id": 4909, "model": "qwen2.5:7b", "task_type": "social-video", "pid": 113770}
+{"ts": "2026-06-10T19:06:33.926051", "event": "task_failed", "task_id": 4908, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:06:36.279972", "event": "task_dispatched", "task_id": 4910, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 114211}
+{"ts": "2026-06-10T19:06:54.348903", "event": "task_failed", "task_id": 4944, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:06:56.492065", "event": "task_dispatched", "task_id": 4945, "model": "llama3.2:3b", "task_type": "social-proof", "pid": 114707}
+{"ts": "2026-06-10T19:08:59.610898", "event": "task_failed", "task_id": 4945, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:09:01.744383", "event": "task_dispatched", "task_id": 4946, "model": "llama3.2:3b", "task_type": "social-instagram", "pid": 115880}
+{"ts": "2026-06-10T19:11:04.876919", "event": "task_failed", "task_id": 4946, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:11:06.875636", "event": "task_dispatched", "task_id": 4947, "model": "llama3.2:3b", "task_type": "social-tiktok", "pid": 117087}
+{"ts": "2026-06-10T19:11:27.896124", "event": "task_failed", "task_id": 4909, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:11:29.941324", "event": "task_dispatched", "task_id": 4911, "model": "qwen2.5:7b", "task_type": "campaign", "pid": 117550}
+{"ts": "2026-06-10T19:11:38.954538", "event": "task_failed", "task_id": 4910, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:11:40.886273", "event": "task_dispatched", "task_id": 4912, "model": "qwen2.5:7b", "task_type": "seo", "pid": 117931}
+{"ts": "2026-06-10T19:13:08.009884", "event": "task_failed", "task_id": 4947, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:13:09.876838", "event": "task_dispatched", "task_id": 4948, "model": "llama3.2:3b", "task_type": "email-subject", "pid": 118853}
+{"ts": "2026-06-10T19:13:39.892885", "event": "task_completed", "task_id": 4880, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 0.9, "elapsed_seconds": 772.56, "error": null}
+{"ts": "2026-06-10T19:13:41.696816", "event": "task_dispatched", "task_id": 4881, "model": "qwen2.5:14b", "task_type": "web-page", "pid": 119365}
+{"ts": "2026-06-10T19:15:11.848937", "event": "task_failed", "task_id": 4948, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:15:13.708893", "event": "task_dispatched", "task_id": 4949, "model": "llama3.2:3b", "task_type": "brand", "pid": 120277}
+{"ts": "2026-06-10T19:16:32.812946", "event": "task_failed", "task_id": 4911, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:16:34.650067", "event": "task_dispatched", "task_id": 4913, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 121122}
+{"ts": "2026-06-10T19:16:43.662406", "event": "task_failed", "task_id": 4912, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:16:45.389806", "event": "task_dispatched", "task_id": 4914, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 121462}
+{"ts": "2026-06-10T19:17:15.995855", "event": "task_failed", "task_id": 4949, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=120s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:17:17.593888", "event": "task_dispatched", "task_id": 4950, "model": "llama3.2:3b", "task_type": "social-carousel", "pid": 121952}
+{"ts": "2026-06-10T19:18:59.688762", "event": "task_completed", "task_id": 4950, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.6, "elapsed_seconds": 99.25, "error": null}
+{"ts": "2026-06-10T19:19:01.283651", "event": "task_dispatched", "task_id": 4951, "model": "llama3.2:3b", "task_type": "ad-copy", "pid": 122913}
+{"ts": "2026-06-10T19:20:53.146386", "event": "orphan_reap", "requeued": 4, "failed": 0}
+{"ts": "2026-06-10T19:20:54.547705", "event": "task_dispatched", "task_id": 4913, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 124052}
+{"ts": "2026-06-10T19:21:02.154593", "event": "task_dispatched", "task_id": 4951, "model": "llama3.2:3b", "task_type": "ad-copy", "pid": 124374}
+{"ts": "2026-06-10T19:21:09.744220", "event": "task_dispatched", "task_id": 4881, "model": "qwen2.5:14b", "task_type": "web-page", "pid": 124701}
+{"ts": "2026-06-10T19:23:36.872967", "event": "task_completed", "task_id": 4951, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.9, "elapsed_seconds": 153.88, "error": "dashboard restarted \u2014 re-queued (attempt 1/1)"}
+{"ts": "2026-06-10T19:23:38.398763", "event": "task_dispatched", "task_id": 4952, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 126143}
+{"ts": "2026-06-10T19:25:57.056515", "event": "task_failed", "task_id": 4913, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:25:58.639925", "event": "task_dispatched", "task_id": 4914, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 127496}
+{"ts": "2026-06-10T19:27:41.246591", "event": "task_failed", "task_id": 4952, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=240s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:27:42.656203", "event": "task_dispatched", "task_id": 4953, "model": "llama3.2:3b", "task_type": "campaign", "pid": 128518}
+{"ts": "2026-06-10T19:29:54.759868", "event": "task_completed", "task_id": 4953, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.8, "elapsed_seconds": 131.36, "error": null}
+{"ts": "2026-06-10T19:29:56.188838", "event": "task_dispatched", "task_id": 4954, "model": "llama3.2:3b", "task_type": "social-video", "pid": 129773}
+{"ts": "2026-06-10T19:30:59.257697", "event": "task_failed", "task_id": 4914, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:31:00.614706", "event": "task_dispatched", "task_id": 4915, "model": "qwen2.5:7b", "task_type": "social-twitter", "pid": 130486}
+{"ts": "2026-06-10T19:31:42.697882", "event": "task_completed", "task_id": 4954, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.8, "elapsed_seconds": 106.38, "error": null}
+{"ts": "2026-06-10T19:32:58.691618", "event": "task_completed", "task_id": 4881, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.0, "elapsed_seconds": 706.08, "error": "dashboard restarted \u2014 re-queued (attempt 1/1)"}
+{"ts": "2026-06-10T19:32:58.697243", "event": "task_completed", "task_id": 4915, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.6, "elapsed_seconds": 116.85, "error": null}
+{"ts": "2026-06-10T19:32:59.375600", "event": "task_dispatched", "task_id": 4916, "model": "qwen2.5:7b", "task_type": "email-investors", "pid": 135085}
+{"ts": "2026-06-10T19:33:06.344400", "event": "task_dispatched", "task_id": 4882, "model": "qwen2.5:14b", "task_type": "social-linkedin", "pid": 135315}
+{"ts": "2026-06-10T19:36:26.080878", "event": "task_completed", "task_id": 4916, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.9, "elapsed_seconds": 203.87, "error": null}
+{"ts": "2026-06-10T19:36:27.060341", "event": "task_dispatched", "task_id": 4917, "model": "qwen2.5:7b", "task_type": "social-pinterest", "pid": 145358}
+{"ts": "2026-06-10T19:41:29.427685", "event": "task_completed", "task_id": 4882, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.5, "elapsed_seconds": 500.97, "error": null}
+{"ts": "2026-06-10T19:41:29.433080", "event": "task_failed", "task_id": 4917, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:41:30.025629", "event": "task_dispatched", "task_id": 4918, "model": "qwen2.5:7b", "task_type": "campaign", "pid": 160160}
+{"ts": "2026-06-10T19:41:36.772625", "event": "task_dispatched", "task_id": 4883, "model": "qwen2.5:14b", "task_type": "competitive-analysis", "pid": 160362}
+{"ts": "2026-06-10T19:46:23.545220", "event": "task_completed", "task_id": 4918, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.9, "elapsed_seconds": 290.19, "error": null}
+{"ts": "2026-06-10T19:46:24.348445", "event": "task_dispatched", "task_id": 4919, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 173470}
+{"ts": "2026-06-10T19:51:26.217662", "event": "task_failed", "task_id": 4919, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T19:51:26.972551", "event": "task_dispatched", "task_id": 4920, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 186611}
+{"ts": "2026-06-10T19:52:12.055903", "event": "task_dispatched", "task_id": 4888, "model": "qwen2.5:14b", "task_type": "campaign", "pid": 188424}
+{"ts": "2026-06-10T19:52:15.069899", "event": "task_completed", "task_id": 4883, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.5, "elapsed_seconds": 634.78, "error": null}
+{"ts": "2026-06-10T19:55:53.513067", "event": "task_completed", "task_id": 4920, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.9, "elapsed_seconds": 266.36, "error": null}
+{"ts": "2026-06-10T19:55:54.155712", "event": "task_dispatched", "task_id": 4921, "model": "qwen2.5:7b", "task_type": "social-video", "pid": 197303}
+{"ts": "2026-06-10T20:00:32.520147", "event": "task_completed", "task_id": 4888, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.5, "elapsed_seconds": 497.98, "error": null}
+{"ts": "2026-06-10T20:00:33.110162", "event": "task_dispatched", "task_id": 4884, "model": "qwen2.5:14b", "task_type": "web-page", "pid": 207945}
+{"ts": "2026-06-10T20:00:54.485677", "event": "task_dispatched", "task_id": 4922, "model": "qwen2.5:7b", "task_type": "blog", "pid": 208643}
+{"ts": "2026-06-10T20:00:57.519939", "event": "task_failed", "task_id": 4921, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T20:05:56.240778", "event": "task_failed", "task_id": 4922, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-10T20:05:56.779713", "event": "task_dispatched", "task_id": 4923, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 218998}
+{"ts": "2026-06-10T20:10:01.694603", "event": "task_dispatched", "task_id": 4924, "model": "qwen2.5:7b", "task_type": "community", "pid": 226834}
+{"ts": "2026-06-10T20:10:04.709950", "event": "task_completed", "task_id": 4923, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.0, "elapsed_seconds": 244.7, "error": null}
+{"ts": "2026-06-10T20:12:06.526460", "event": "task_completed", "task_id": 4884, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.5, "elapsed_seconds": 691.26, "error": null}
+{"ts": "2026-06-10T20:12:07.020803", "event": "task_dispatched", "task_id": 4885, "model": "qwen2.5:14b", "task_type": "thought-leadership", "pid": 230536}
+{"ts": "2026-06-10T20:13:32.225979", "event": "task_completed", "task_id": 4924, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.9, "elapsed_seconds": 209.22, "error": null}
+{"ts": "2026-06-10T20:18:21.715346", "event": "task_dispatched", "task_id": 4889, "model": "qwen2.5:14b", "task_type": "email-template", "pid": 240420}
+{"ts": "2026-06-10T20:18:24.726173", "event": "task_completed", "task_id": 4885, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.4, "elapsed_seconds": 373.9, "error": null}
+{"ts": "2026-06-10T20:21:23.252799", "event": "task_completed", "task_id": 4889, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.7, "elapsed_seconds": 179.54, "error": null}
+{"ts": "2026-06-10T20:21:23.488601", "event": "task_dispatched", "task_id": 4886, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 244702}
+{"ts": "2026-06-10T20:25:34.803790", "event": "task_completed", "task_id": 4886, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.6, "elapsed_seconds": 249.99, "error": null}
+{"ts": "2026-06-10T20:25:35.008116", "event": "task_dispatched", "task_id": 4887, "model": "qwen2.5:14b", "task_type": "blog", "pid": 250091}
+{"ts": "2026-06-10T20:31:48.836589", "event": "task_completed", "task_id": 4887, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.6, "elapsed_seconds": 371.99, "error": null}
+{"ts": "2026-06-10T20:31:49.010419", "event": "task_dispatched", "task_id": 4890, "model": "qwen2.5:14b", "task_type": "web-page", "pid": 257081}
+{"ts": "2026-06-10T20:35:22.085716", "event": "task_completed", "task_id": 4890, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.7, "elapsed_seconds": 212.16, "error": null}
+{"ts": "2026-06-10T20:35:22.229564", "event": "task_dispatched", "task_id": 4891, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 260471}
+{"ts": "2026-06-10T20:38:40.203269", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-10T20:40:23.847786", "event": "task_completed", "task_id": 4891, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 299.17, "error": null}
+{"ts": "2026-06-10T20:40:23.973073", "event": "task_dispatched", "task_id": 4892, "model": "qwen2.5:14b", "task_type": "blog", "pid": 264536}
+{"ts": "2026-06-10T20:46:01.573332", "event": "task_completed", "task_id": 4892, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.6, "elapsed_seconds": 337.05, "error": null}
+{"ts": "2026-06-10T20:46:01.663011", "event": "task_dispatched", "task_id": 4893, "model": "qwen2.5:14b", "task_type": "email-campaign", "pid": 268181}
+{"ts": "2026-06-10T20:53:39.155073", "event": "task_completed", "task_id": 4893, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 457.05, "error": null}
+{"ts": "2026-06-10T20:53:39.206883", "event": "task_dispatched", "task_id": 4894, "model": "qwen2.5:14b", "task_type": "competitive-analysis", "pid": 271726}
+{"ts": "2026-06-10T21:03:24.946097", "event": "task_completed", "task_id": 4894, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 584.65, "error": null}
+{"ts": "2026-06-10T21:04:03.996972", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-10T21:30:05.353664", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T15:47:36.327836", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T16:13:37.771250", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T16:38:39.003387", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T17:04:40.500309", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T17:29:41.856308", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T17:55:43.322924", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T18:20:44.581648", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T18:46:45.982194", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T19:11:47.300761", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T19:37:48.614209", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T20:02:50.150402", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T20:28:51.713513", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T20:53:53.403561", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T21:19:55.035553", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T21:44:56.675194", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T22:10:58.138492", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T22:35:59.657999", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T23:02:01.168479", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T23:27:02.739202", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-11T23:53:04.167621", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T00:18:05.514199", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T00:44:06.979743", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T01:09:08.343958", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T01:35:09.797034", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T02:00:11.170030", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T02:26:12.527979", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T02:51:13.905600", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T03:17:15.235309", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T03:42:16.696511", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T04:08:18.076394", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T04:33:19.478360", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T04:59:20.871175", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T05:24:22.244172", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T05:50:23.601883", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T06:15:24.862782", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T06:41:26.340054", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T07:06:27.753402", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T07:32:29.229431", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T07:57:30.705694", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T08:23:32.171613", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T08:48:33.683723", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T09:14:35.158102", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T09:39:36.653935", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T10:05:38.100570", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T10:30:39.476834", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T10:56:41.168005", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T11:21:42.490300", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T11:47:43.953240", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T12:12:45.248281", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T12:38:46.697921", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T13:03:48.029453", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T13:29:49.541054", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T13:54:50.844194", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T14:20:52.230938", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T14:45:53.563960", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T15:11:54.950198", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T15:36:56.248079", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T16:02:57.623841", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T16:25:34.802202", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T16:25:38.521337", "event": "task_dispatched", "task_id": 4957, "model": "llama3.2:3b", "task_type": "", "pid": 611576}
+{"ts": "2026-06-12T16:26:04.345679", "event": "task_completed", "task_id": 4957, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.1, "elapsed_seconds": 25.27, "error": null}
+{"ts": "2026-06-12T16:26:05.004691", "event": "task_dispatched", "task_id": 4958, "model": "llama3.2:3b", "task_type": "", "pid": 612941}
+{"ts": "2026-06-12T16:26:27.575018", "event": "task_dispatched", "task_id": 4977, "model": "llama3.2:3b", "task_type": "", "pid": 614040}
+{"ts": "2026-06-12T16:26:30.585062", "event": "task_completed", "task_id": 4958, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.1, "elapsed_seconds": 22.48, "error": null}
+{"ts": "2026-06-12T16:26:37.410441", "event": "task_completed", "task_id": 4977, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.9, "elapsed_seconds": 7.8, "error": null}
+{"ts": "2026-06-12T16:26:38.015235", "event": "task_dispatched", "task_id": 4959, "model": "llama3.2:3b", "task_type": "", "pid": 614467}
+{"ts": "2026-06-12T16:26:55.609996", "event": "task_completed", "task_id": 4959, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.3, "elapsed_seconds": 14.57, "error": null}
+{"ts": "2026-06-12T16:26:56.183648", "event": "task_dispatched", "task_id": 4960, "model": "llama3.2:3b", "task_type": "", "pid": 615268}
+{"ts": "2026-06-12T16:27:05.936938", "event": "task_completed", "task_id": 4960, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.5, "elapsed_seconds": 8.36, "error": null}
+{"ts": "2026-06-12T16:27:06.475094", "event": "task_dispatched", "task_id": 4961, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 615656}
+{"ts": "2026-06-12T16:27:31.161752", "event": "task_completed", "task_id": 4961, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.2, "elapsed_seconds": 23.57, "error": null}
+{"ts": "2026-06-12T16:27:31.662673", "event": "task_dispatched", "task_id": 4962, "model": "llama3.2:3b", "task_type": "social-instagram", "pid": 616732}
+{"ts": "2026-06-12T16:27:45.538096", "event": "task_dispatched", "task_id": 4972, "model": "llama3.2:3b", "task_type": "", "pid": 617286}
+{"ts": "2026-06-12T16:27:48.545451", "event": "task_completed", "task_id": 4962, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.5, "elapsed_seconds": 13.63, "error": null}
+{"ts": "2026-06-12T16:28:02.399315", "event": "task_completed", "task_id": 4972, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.3, "elapsed_seconds": 15.08, "error": null}
+{"ts": "2026-06-12T16:28:02.840330", "event": "task_dispatched", "task_id": 4963, "model": "llama3.2:3b", "task_type": "social-linkedin", "pid": 617939}
+{"ts": "2026-06-12T16:28:30.176619", "event": "task_completed", "task_id": 4963, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.1, "elapsed_seconds": 24.33, "error": null}
+{"ts": "2026-06-12T16:28:30.577066", "event": "task_dispatched", "task_id": 4964, "model": "llama3.2:3b", "task_type": "social-tiktok", "pid": 619021}
+{"ts": "2026-06-12T16:28:47.130056", "event": "task_completed", "task_id": 4964, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.4, "elapsed_seconds": 14.83, "error": null}
+{"ts": "2026-06-12T16:28:47.503583", "event": "task_dispatched", "task_id": 4965, "model": "llama3.2:3b", "task_type": "social-reddit", "pid": 619595}
+{"ts": "2026-06-12T16:29:00.872287", "event": "task_dispatched", "task_id": 4968, "model": "llama3.2:3b", "task_type": "", "pid": 620027}
+{"ts": "2026-06-12T16:29:03.883617", "event": "task_completed", "task_id": 4965, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.7, "elapsed_seconds": 13.03, "error": null}
+{"ts": "2026-06-12T16:29:27.441178", "event": "task_completed", "task_id": 4968, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 9.3, "elapsed_seconds": 23.91, "error": null}
+{"ts": "2026-06-12T16:29:27.784131", "event": "task_dispatched", "task_id": 4966, "model": "llama3.2:3b", "task_type": "", "pid": 620906}
+{"ts": "2026-06-12T16:29:43.679484", "event": "orphan_reap", "requeued": 1, "failed": 0}
+{"ts": "2026-06-12T16:29:44.052849", "event": "task_dispatched", "task_id": 4966, "model": "llama3.2:3b", "task_type": "", "pid": 621393}
+{"ts": "2026-06-12T16:29:44.089354", "event": "task_dispatched", "task_id": 4967, "model": "llama3.2:3b", "task_type": "", "pid": 621401}
+{"ts": "2026-06-12T16:29:44.131737", "event": "task_dispatched", "task_id": 4969, "model": "llama3.2:3b", "task_type": "", "pid": 621409}
+{"ts": "2026-06-12T16:30:41.222580", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T16:30:47.261809", "event": "task_completed", "task_id": 4966, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.1, "elapsed_seconds": 61.35, "error": "dashboard restarted \u2014 re-queued (attempt 1/2)"}
+{"ts": "2026-06-12T16:31:14.945590", "event": "task_completed", "task_id": 4967, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.8, "elapsed_seconds": 87.54, "error": null}
+{"ts": "2026-06-12T16:31:15.355328", "event": "task_dispatched", "task_id": 4970, "model": "llama3.2:3b", "task_type": "", "pid": 622653}
+{"ts": "2026-06-12T16:31:15.401624", "event": "task_dispatched", "task_id": 4971, "model": "llama3.2:3b", "task_type": "", "pid": 622662}
+{"ts": "2026-06-12T16:31:27.412344", "event": "task_completed", "task_id": 4969, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 4.0, "elapsed_seconds": 101.51, "error": null}
+{"ts": "2026-06-12T16:31:49.888729", "event": "task_completed", "task_id": 4970, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 5.4, "elapsed_seconds": 32.24, "error": null}
+{"ts": "2026-06-12T16:31:50.119808", "event": "task_dispatched", "task_id": 4973, "model": "llama3.2:3b", "task_type": "", "pid": 623275}
+{"ts": "2026-06-12T16:31:50.168370", "event": "task_dispatched", "task_id": 4974, "model": "llama3.2:3b", "task_type": "", "pid": 623283}
+{"ts": "2026-06-12T16:32:08.185628", "event": "task_completed", "task_id": 4971, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 5.2, "elapsed_seconds": 49.82, "error": null}
+{"ts": "2026-06-12T16:32:26.814006", "event": "task_completed", "task_id": 4974, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 5.1, "elapsed_seconds": 35.0, "error": null}
+{"ts": "2026-06-12T16:32:26.938803", "event": "task_dispatched", "task_id": 4975, "model": "llama3.2:3b", "task_type": "", "pid": 623702}
+{"ts": "2026-06-12T16:32:26.997470", "event": "task_dispatched", "task_id": 4976, "model": "llama3.2:3b", "task_type": "", "pid": 623710}
+{"ts": "2026-06-12T16:33:21.093436", "event": "task_completed", "task_id": 4973, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 4.3, "elapsed_seconds": 76.74, "error": null}
+{"ts": "2026-06-12T16:33:21.100507", "event": "task_completed", "task_id": 4975, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.4, "elapsed_seconds": 49.17, "error": null}
+{"ts": "2026-06-12T16:33:21.592331", "event": "task_dispatched", "task_id": 4978, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 624262}
+{"ts": "2026-06-12T16:33:21.670929", "event": "task_dispatched", "task_id": 4979, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 624271}
+{"ts": "2026-06-12T16:33:36.688475", "event": "task_completed", "task_id": 4976, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 4.2, "elapsed_seconds": 69.33, "error": null}
+{"ts": "2026-06-12T16:36:13.370840", "event": "task_completed", "task_id": 4979, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.5, "elapsed_seconds": 171.12, "error": null}
+{"ts": "2026-06-12T16:36:20.575239", "event": "task_dispatched", "task_id": 4987, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 628854}
+{"ts": "2026-06-12T16:36:23.585555", "event": "task_completed", "task_id": 4978, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.6, "elapsed_seconds": 178.83, "error": null}
+{"ts": "2026-06-12T16:38:19.884881", "event": "task_completed", "task_id": 4987, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 4.6, "elapsed_seconds": 118.92, "error": null}
+{"ts": "2026-06-12T16:38:20.135520", "event": "task_dispatched", "task_id": 4980, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 631947}
+{"ts": "2026-06-12T16:38:20.160809", "event": "task_dispatched", "task_id": 4981, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 631956}
+{"ts": "2026-06-12T16:38:20.194983", "event": "task_dispatched", "task_id": 4982, "model": "qwen2.5:7b", "task_type": "landing-page", "pid": 631964}
+{"ts": "2026-06-12T16:41:59.541672", "event": "task_completed", "task_id": 4982, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.8, "elapsed_seconds": 218.04, "error": null}
+{"ts": "2026-06-12T16:42:14.189432", "event": "task_completed", "task_id": 4980, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.8, "elapsed_seconds": 232.79, "error": null}
+{"ts": "2026-06-12T16:42:25.685369", "event": "task_failed", "task_id": 4981, "status": "queued", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=600s)..."}
+{"ts": "2026-06-12T16:42:26.185030", "event": "task_dispatched", "task_id": 4981, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 636192}
+{"ts": "2026-06-12T16:42:26.229482", "event": "task_dispatched", "task_id": 4983, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 636204}
+{"ts": "2026-06-12T16:42:26.313721", "event": "task_dispatched", "task_id": 4984, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 636212}
+{"ts": "2026-06-12T16:46:32.788374", "event": "task_completed", "task_id": 4983, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.4, "elapsed_seconds": 245.34, "error": null}
+{"ts": "2026-06-12T16:46:36.354404", "event": "task_completed", "task_id": 4984, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.4, "elapsed_seconds": 249.77, "error": null}
+{"ts": "2026-06-12T16:46:46.804012", "event": "task_completed", "task_id": 4981, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.5, "elapsed_seconds": 259.02, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=600s)..."}
+{"ts": "2026-06-12T16:46:47.088097", "event": "task_dispatched", "task_id": 4985, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 646667}
+{"ts": "2026-06-12T16:46:47.122605", "event": "task_dispatched", "task_id": 4986, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 646675}
+{"ts": "2026-06-12T16:46:53.573574", "event": "task_dispatched", "task_id": 4988, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 647024}
+{"ts": "2026-06-12T16:49:47.908855", "event": "task_completed", "task_id": 4986, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.1, "elapsed_seconds": 179.75, "error": null}
+{"ts": "2026-06-12T16:51:48.255076", "event": "task_failed", "task_id": 4985, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-12T16:55:50.428164", "event": "task_completed", "task_id": 4988, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.3, "elapsed_seconds": 534.63, "error": null}
+{"ts": "2026-06-12T16:55:50.619345", "event": "task_dispatched", "task_id": 4989, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 669908}
+{"ts": "2026-06-12T17:00:57.019841", "event": "task_completed", "task_id": 4989, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.9, "elapsed_seconds": 304.5, "error": null}
+{"ts": "2026-06-12T17:00:57.177733", "event": "task_dispatched", "task_id": 4990, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 684916}
+{"ts": "2026-06-12T17:06:28.051697", "event": "task_completed", "task_id": 4990, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.9, "elapsed_seconds": 327.98, "error": null}
+{"ts": "2026-06-12T17:06:28.158525", "event": "task_dispatched", "task_id": 4991, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 700026}
+{"ts": "2026-06-12T17:09:11.440858", "event": "task_completed", "task_id": 4991, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.0, "elapsed_seconds": 161.64, "error": null}
+{"ts": "2026-06-12T17:09:11.498725", "event": "task_dispatched", "task_id": 4992, "model": "qwen2.5:14b", "task_type": "press-release", "pid": 707042}
+{"ts": "2026-06-12T17:13:50.992878", "event": "task_completed", "task_id": 4992, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.9, "elapsed_seconds": 277.23, "error": null}
+{"ts": "2026-06-12T17:22:06.476442", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T17:47:07.843910", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T18:13:09.359859", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T18:38:10.851449", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T19:04:12.314943", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T19:25:01.525981", "event": "task_dispatched", "task_id": 4993, "model": "llama3.2:3b", "task_type": "", "pid": 1125130}
+{"ts": "2026-06-12T19:25:01.551602", "event": "task_dispatched", "task_id": 4994, "model": "llama3.2:3b", "task_type": "", "pid": 1125138}
+{"ts": "2026-06-12T19:25:18.882114", "event": "task_dispatched", "task_id": 5038, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 1126200}
+{"ts": "2026-06-12T19:25:51.916674", "event": "task_completed", "task_id": 4993, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.8, "elapsed_seconds": 49.77, "error": null}
+{"ts": "2026-06-12T19:25:56.460819", "event": "task_dispatched", "task_id": 4995, "model": "llama3.2:3b", "task_type": "", "pid": 1127306}
+{"ts": "2026-06-12T19:25:59.477389", "event": "task_completed", "task_id": 4994, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.9, "elapsed_seconds": 51.48, "error": null}
+{"ts": "2026-06-12T19:26:08.030296", "event": "task_dispatched", "task_id": 4996, "model": "llama3.2:3b", "task_type": "", "pid": 1128197}
+{"ts": "2026-06-12T19:27:02.140555", "event": "task_completed", "task_id": 4995, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.2, "elapsed_seconds": 44.83, "error": null}
+{"ts": "2026-06-12T19:27:02.145681", "event": "task_completed", "task_id": 4996, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.9, "elapsed_seconds": 34.66, "error": null}
+{"ts": "2026-06-12T19:27:05.915743", "event": "task_dispatched", "task_id": 4997, "model": "llama3.2:3b", "task_type": "", "pid": 1129418}
+{"ts": "2026-06-12T19:27:05.984542", "event": "task_dispatched", "task_id": 4998, "model": "llama3.2:3b", "task_type": "", "pid": 1129426}
+{"ts": "2026-06-12T19:27:21.005990", "event": "task_completed", "task_id": 4998, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 13.32, "error": null}
+{"ts": "2026-06-12T19:27:25.875797", "event": "task_dispatched", "task_id": 4999, "model": "llama3.2:3b", "task_type": "", "pid": 1130344}
+{"ts": "2026-06-12T19:27:34.891465", "event": "task_completed", "task_id": 4997, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 26.79, "error": null}
+{"ts": "2026-06-12T19:27:39.736232", "event": "task_dispatched", "task_id": 5000, "model": "llama3.2:3b", "task_type": "", "pid": 1131211}
+{"ts": "2026-06-12T19:28:00.751330", "event": "task_completed", "task_id": 4999, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 32.71, "error": null}
+{"ts": "2026-06-12T19:28:05.722122", "event": "task_dispatched", "task_id": 5001, "model": "llama3.2:3b", "task_type": "", "pid": 1132182}
+{"ts": "2026-06-12T19:28:35.822888", "event": "task_completed", "task_id": 5000, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 53.84, "error": null}
+{"ts": "2026-06-12T19:28:40.464301", "event": "task_dispatched", "task_id": 5002, "model": "llama3.2:3b", "task_type": "", "pid": 1133224}
+{"ts": "2026-06-12T19:29:16.496086", "event": "task_completed", "task_id": 5038, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.7, "elapsed_seconds": 235.33, "error": null}
+{"ts": "2026-06-12T19:29:16.514480", "event": "task_completed", "task_id": 5001, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.0, "elapsed_seconds": 70.53, "error": null}
+{"ts": "2026-06-12T19:29:20.999171", "event": "task_dispatched", "task_id": 5003, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 1134211}
+{"ts": "2026-06-12T19:29:21.042533", "event": "task_dispatched", "task_id": 5004, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 1134219}
+{"ts": "2026-06-12T19:30:00.096315", "event": "task_completed", "task_id": 5002, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 77.68, "error": null}
+{"ts": "2026-06-12T19:30:04.032812", "event": "task_dispatched", "task_id": 5039, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 1135237}
+{"ts": "2026-06-12T19:30:37.148699", "event": "task_completed", "task_id": 5003, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 4.0, "elapsed_seconds": 75.34, "error": null}
+{"ts": "2026-06-12T19:30:41.915272", "event": "task_dispatched", "task_id": 5005, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 1136240}
+{"ts": "2026-06-12T19:30:47.928625", "event": "task_completed", "task_id": 5004, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.9, "elapsed_seconds": 85.42, "error": null}
+{"ts": "2026-06-12T19:30:52.367216", "event": "task_dispatched", "task_id": 5006, "model": "llama3.2:3b", "task_type": "social-instagram", "pid": 1137006}
+{"ts": "2026-06-12T19:31:46.458119", "event": "task_completed", "task_id": 5005, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 64.14, "error": null}
+{"ts": "2026-06-12T19:31:46.463406", "event": "task_completed", "task_id": 5006, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.4, "elapsed_seconds": 52.01, "error": null}
+{"ts": "2026-06-12T19:31:51.230608", "event": "task_dispatched", "task_id": 5007, "model": "llama3.2:3b", "task_type": "social-instagram", "pid": 1138338}
+{"ts": "2026-06-12T19:31:51.296229", "event": "task_dispatched", "task_id": 5008, "model": "llama3.2:3b", "task_type": "social-linkedin", "pid": 1138346}
+{"ts": "2026-06-12T19:33:57.687448", "event": "task_completed", "task_id": 5008, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 123.83, "error": null}
+{"ts": "2026-06-12T19:34:05.625891", "event": "task_dispatched", "task_id": 5009, "model": "llama3.2:3b", "task_type": "social-linkedin", "pid": 1143765}
+{"ts": "2026-06-12T19:34:23.650250", "event": "task_completed", "task_id": 5039, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.3, "elapsed_seconds": 256.56, "error": null}
+{"ts": "2026-06-12T19:34:29.545335", "event": "task_dispatched", "task_id": 5040, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 1145048}
+{"ts": "2026-06-12T19:34:59.597663", "event": "task_completed", "task_id": 5007, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 186.37, "error": null}
+{"ts": "2026-06-12T19:35:06.242270", "event": "task_dispatched", "task_id": 5010, "model": "llama3.2:3b", "task_type": "social-tiktok", "pid": 1147047}
+{"ts": "2026-06-12T19:36:51.509339", "event": "task_completed", "task_id": 5010, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 105.0, "error": null}
+{"ts": "2026-06-12T19:36:58.078859", "event": "task_dispatched", "task_id": 5011, "model": "llama3.2:3b", "task_type": "social-reddit", "pid": 1151561}
+{"ts": "2026-06-12T19:37:04.094270", "event": "task_completed", "task_id": 5009, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.1, "elapsed_seconds": 177.95, "error": null}
+{"ts": "2026-06-12T19:37:10.973800", "event": "task_dispatched", "task_id": 5012, "model": "llama3.2:3b", "task_type": "social-reddit", "pid": 1152624}
+{"ts": "2026-06-12T19:38:23.290598", "event": "task_completed", "task_id": 5011, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 1.9, "elapsed_seconds": 84.36, "error": null}
+{"ts": "2026-06-12T19:38:29.852485", "event": "task_dispatched", "task_id": 5013, "model": "llama3.2:3b", "task_type": "social-facebook", "pid": 1156078}
+{"ts": "2026-06-12T19:38:38.872413", "event": "task_completed", "task_id": 5012, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 1.9, "elapsed_seconds": 85.96, "error": null}
+{"ts": "2026-06-12T19:38:45.009372", "event": "task_dispatched", "task_id": 5014, "model": "llama3.2:3b", "task_type": "social-facebook", "pid": 1157225}
+{"ts": "2026-06-12T19:39:45.139405", "event": "task_completed", "task_id": 5013, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 74.25, "error": null}
+{"ts": "2026-06-12T19:39:51.450630", "event": "task_dispatched", "task_id": 5015, "model": "llama3.2:3b", "task_type": "", "pid": 1160097}
+{"ts": "2026-06-12T19:40:03.469479", "event": "task_completed", "task_id": 5040, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.8, "elapsed_seconds": 333.28, "error": null}
+{"ts": "2026-06-12T19:40:08.160382", "event": "task_dispatched", "task_id": 5041, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 1161306}
+{"ts": "2026-06-12T19:41:32.332139", "event": "task_completed", "task_id": 5014, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.1, "elapsed_seconds": 167.1, "error": null}
+{"ts": "2026-06-12T19:41:39.018213", "event": "task_dispatched", "task_id": 5016, "model": "llama3.2:3b", "task_type": "", "pid": 1164937}
+{"ts": "2026-06-12T19:42:00.116721", "event": "task_completed", "task_id": 5015, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 128.22, "error": null}
+{"ts": "2026-06-12T19:42:05.985398", "event": "task_dispatched", "task_id": 5017, "model": "llama3.2:3b", "task_type": "", "pid": 1166305}
+{"ts": "2026-06-12T19:43:12.143372", "event": "task_completed", "task_id": 5017, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 64.86, "error": null}
+{"ts": "2026-06-12T19:43:16.985442", "event": "task_dispatched", "task_id": 5018, "model": "llama3.2:3b", "task_type": "", "pid": 1169333}
+{"ts": "2026-06-12T19:43:20.016918", "event": "task_completed", "task_id": 5016, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 1.9, "elapsed_seconds": 95.05, "error": null}
+{"ts": "2026-06-12T19:43:28.744259", "event": "task_dispatched", "task_id": 5019, "model": "llama3.2:3b", "task_type": "", "pid": 1170319}
+{"ts": "2026-06-12T19:45:44.041532", "event": "task_completed", "task_id": 5018, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 144.24, "error": null}
+{"ts": "2026-06-12T19:45:49.163202", "event": "task_dispatched", "task_id": 5020, "model": "llama3.2:3b", "task_type": "", "pid": 1175893}
+{"ts": "2026-06-12T19:45:52.174342", "event": "task_completed", "task_id": 5019, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 137.63, "error": null}
+{"ts": "2026-06-12T19:45:55.197745", "event": "task_completed", "task_id": 5041, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.8, "elapsed_seconds": 344.13, "error": null}
+{"ts": "2026-06-12T19:45:59.778166", "event": "task_dispatched", "task_id": 5021, "model": "llama3.2:3b", "task_type": "", "pid": 1176842}
+{"ts": "2026-06-12T19:45:59.839257", "event": "task_dispatched", "task_id": 5022, "model": "llama3.2:3b", "task_type": "", "pid": 1176859}
+{"ts": "2026-06-12T19:47:05.958952", "event": "task_completed", "task_id": 5022, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.3, "elapsed_seconds": 64.27, "error": null}
+{"ts": "2026-06-12T19:47:10.745937", "event": "task_dispatched", "task_id": 5042, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 1180086}
+{"ts": "2026-06-12T19:47:32.065518", "event": "task_completed", "task_id": 5020, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.3, "elapsed_seconds": 102.6, "error": null}
+{"ts": "2026-06-12T19:47:37.588326", "event": "task_dispatched", "task_id": 5023, "model": "llama3.2:3b", "task_type": "", "pid": 1181604}
+{"ts": "2026-06-12T19:48:22.632593", "event": "task_completed", "task_id": 5021, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.7, "elapsed_seconds": 142.18, "error": null}
+{"ts": "2026-06-12T19:48:28.252870", "event": "task_dispatched", "task_id": 5024, "model": "llama3.2:3b", "task_type": "", "pid": 1183740}
+{"ts": "2026-06-12T19:49:37.457009", "event": "task_completed", "task_id": 5023, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 119.48, "error": null}
+{"ts": "2026-06-12T19:49:42.219329", "event": "task_dispatched", "task_id": 5025, "model": "llama3.2:3b", "task_type": "", "pid": 1186832}
+{"ts": "2026-06-12T19:49:45.240978", "event": "task_completed", "task_id": 5024, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 74.85, "error": null}
+{"ts": "2026-06-12T19:49:52.847294", "event": "task_dispatched", "task_id": 5026, "model": "llama3.2:3b", "task_type": "", "pid": 1187644}
+{"ts": "2026-06-12T19:51:35.011888", "event": "task_completed", "task_id": 5026, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 101.52, "error": null}
+{"ts": "2026-06-12T19:51:40.109713", "event": "task_dispatched", "task_id": 5027, "model": "llama3.2:3b", "task_type": "", "pid": 1191994}
+{"ts": "2026-06-12T19:52:10.201226", "event": "task_completed", "task_id": 5042, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.7, "elapsed_seconds": 297.35, "error": null}
+{"ts": "2026-06-12T19:52:10.207948", "event": "task_completed", "task_id": 5025, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 146.36, "error": null}
+{"ts": "2026-06-12T19:52:13.888301", "event": "task_dispatched", "task_id": 5028, "model": "llama3.2:3b", "task_type": "", "pid": 1193636}
+{"ts": "2026-06-12T19:52:13.965133", "event": "task_dispatched", "task_id": 5029, "model": "llama3.2:3b", "task_type": "", "pid": 1193645}
+{"ts": "2026-06-12T19:53:53.177366", "event": "task_completed", "task_id": 5028, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.3, "elapsed_seconds": 97.56, "error": null}
+{"ts": "2026-06-12T19:53:56.742654", "event": "task_dispatched", "task_id": 5043, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 1198293}
+{"ts": "2026-06-12T19:54:02.764729", "event": "task_completed", "task_id": 5029, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.2, "elapsed_seconds": 107.57, "error": null}
+{"ts": "2026-06-12T19:54:07.188403", "event": "task_dispatched", "task_id": 5030, "model": "llama3.2:3b", "task_type": "", "pid": 1199088}
+{"ts": "2026-06-12T19:54:37.235461", "event": "task_completed", "task_id": 5027, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.9, "elapsed_seconds": 174.1, "error": null}
+{"ts": "2026-06-12T19:54:42.063059", "event": "task_dispatched", "task_id": 5031, "model": "llama3.2:3b", "task_type": "", "pid": 1200595}
+{"ts": "2026-06-12T19:56:06.211656", "event": "task_completed", "task_id": 5030, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 1.9, "elapsed_seconds": 116.81, "error": null}
+{"ts": "2026-06-12T19:56:10.416292", "event": "task_dispatched", "task_id": 5032, "model": "llama3.2:3b", "task_type": "", "pid": 1204229}
+{"ts": "2026-06-12T19:58:19.606360", "event": "task_completed", "task_id": 5031, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 216.73, "error": null}
+{"ts": "2026-06-12T19:58:23.904656", "event": "task_dispatched", "task_id": 5033, "model": "llama3.2:3b", "task_type": "", "pid": 1209202}
+{"ts": "2026-06-12T20:00:12.105703", "event": "task_failed", "task_id": 5032, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=240s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-12T20:00:16.024448", "event": "task_dispatched", "task_id": 5034, "model": "llama3.2:3b", "task_type": "", "pid": 1213609}
+{"ts": "2026-06-12T20:00:43.226735", "event": "task_completed", "task_id": 5043, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.6, "elapsed_seconds": 404.47, "error": null}
+{"ts": "2026-06-12T20:00:46.585245", "event": "task_dispatched", "task_id": 5044, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 1215035}
+{"ts": "2026-06-12T20:00:58.603287", "event": "task_completed", "task_id": 5033, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 1.9, "elapsed_seconds": 152.02, "error": null}
+{"ts": "2026-06-12T20:01:02.556388", "event": "task_dispatched", "task_id": 5035, "model": "llama3.2:3b", "task_type": "", "pid": 1215998}
+{"ts": "2026-06-12T20:01:20.611597", "event": "task_completed", "task_id": 5034, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.5, "elapsed_seconds": 63.03, "error": null}
+{"ts": "2026-06-12T20:01:24.631147", "event": "task_dispatched", "task_id": 5036, "model": "llama3.2:3b", "task_type": "", "pid": 1217161}
+{"ts": "2026-06-12T20:03:49.076807", "event": "task_completed", "task_id": 5044, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.9, "elapsed_seconds": 180.77, "error": null}
+{"ts": "2026-06-12T20:03:52.087164", "event": "task_dispatched", "task_id": 5045, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 1222917}
+{"ts": "2026-06-12T20:04:10.110750", "event": "task_completed", "task_id": 5035, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 185.18, "error": null}
+{"ts": "2026-06-12T20:04:10.117122", "event": "task_completed", "task_id": 5036, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.0, "elapsed_seconds": 164.41, "error": null}
+{"ts": "2026-06-12T20:04:12.828565", "event": "task_dispatched", "task_id": 5037, "model": "llama3.2:3b", "task_type": "", "pid": 1223901}
+{"ts": "2026-06-12T20:05:20.237227", "event": "task_completed", "task_id": 5037, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 5.3, "elapsed_seconds": 65.2, "error": null}
+{"ts": "2026-06-12T20:05:52.282843", "event": "task_completed", "task_id": 5045, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.2, "elapsed_seconds": 116.76, "error": null}
+{"ts": "2026-06-12T20:05:53.441257", "event": "task_dispatched", "task_id": 5046, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 1231518}
+{"ts": "2026-06-12T20:05:53.464195", "event": "task_dispatched", "task_id": 5047, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 1231526}
+{"ts": "2026-06-12T20:05:53.502430", "event": "task_dispatched", "task_id": 5048, "model": "qwen2.5:7b", "task_type": "landing-page", "pid": 1231534}
+{"ts": "2026-06-12T20:08:59.751865", "event": "task_completed", "task_id": 5046, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.0, "elapsed_seconds": 183.63, "error": null}
+{"ts": "2026-06-12T20:09:49.847022", "event": "task_completed", "task_id": 5047, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.2, "elapsed_seconds": 234.39, "error": null}
+{"ts": "2026-06-12T20:09:54.308885", "event": "task_completed", "task_id": 5048, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.2, "elapsed_seconds": 238.13, "error": null}
+{"ts": "2026-06-12T20:09:55.384497", "event": "task_dispatched", "task_id": 5049, "model": "qwen2.5:7b", "task_type": "landing-page", "pid": 1236619}
+{"ts": "2026-06-12T20:09:55.408999", "event": "task_dispatched", "task_id": 5050, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 1236627}
+{"ts": "2026-06-12T20:09:55.443852", "event": "task_dispatched", "task_id": 5051, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 1236635}
+{"ts": "2026-06-12T20:14:07.882990", "event": "task_completed", "task_id": 5050, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.7, "elapsed_seconds": 252.37, "error": null}
+{"ts": "2026-06-12T20:14:23.174497", "event": "task_completed", "task_id": 5049, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.7, "elapsed_seconds": 267.12, "error": null}
+{"ts": "2026-06-12T20:14:54.067908", "event": "task_completed", "task_id": 5051, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.9, "elapsed_seconds": 295.8, "error": null}
+{"ts": "2026-06-12T20:14:55.403031", "event": "task_dispatched", "task_id": 5052, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 1246880}
+{"ts": "2026-06-12T20:14:55.441841", "event": "task_dispatched", "task_id": 5053, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 1246888}
+{"ts": "2026-06-12T20:14:55.494374", "event": "task_dispatched", "task_id": 5054, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 1246896}
+{"ts": "2026-06-12T20:18:31.867218", "event": "task_completed", "task_id": 5053, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.4, "elapsed_seconds": 214.06, "error": null}
+{"ts": "2026-06-12T20:19:02.246745", "event": "task_completed", "task_id": 5054, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.5, "elapsed_seconds": 242.18, "error": null}
+{"ts": "2026-06-12T20:19:18.066044", "event": "task_completed", "task_id": 5052, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.6, "elapsed_seconds": 261.79, "error": null}
+{"ts": "2026-06-12T20:19:19.201484", "event": "task_dispatched", "task_id": 5055, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 1259821}
+{"ts": "2026-06-12T20:19:19.248987", "event": "task_dispatched", "task_id": 5056, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 1259829}
+{"ts": "2026-06-12T20:19:19.302074", "event": "task_dispatched", "task_id": 5057, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 1259849}
+{"ts": "2026-06-12T20:22:43.671017", "event": "task_completed", "task_id": 5055, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.3, "elapsed_seconds": 201.91, "error": null}
+{"ts": "2026-06-12T20:24:22.503759", "event": "task_failed", "task_id": 5056, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-12T20:24:22.510846", "event": "task_failed", "task_id": 5057, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-12T20:24:23.618893", "event": "task_dispatched", "task_id": 5058, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 1276514}
+{"ts": "2026-06-12T20:24:23.662147", "event": "task_dispatched", "task_id": 5059, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 1276523}
+{"ts": "2026-06-12T20:24:23.698758", "event": "task_dispatched", "task_id": 5060, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1276531}
+{"ts": "2026-06-12T20:28:48.253669", "event": "task_completed", "task_id": 5060, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.4, "elapsed_seconds": 263.15, "error": null}
+{"ts": "2026-06-12T20:29:25.466925", "event": "task_failed", "task_id": 5058, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-12T20:29:25.473716", "event": "task_failed", "task_id": 5059, "status": "failed", "model": "qwen2.5:7b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:7b (timeout=300s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-12T20:29:26.479830", "event": "task_dispatched", "task_id": 5061, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1290406}
+{"ts": "2026-06-12T20:29:26.506329", "event": "task_dispatched", "task_id": 5062, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1290414}
+{"ts": "2026-06-12T20:29:26.548777", "event": "task_dispatched", "task_id": 5063, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1290422}
+{"ts": "2026-06-12T20:34:30.058438", "event": "task_completed", "task_id": 5061, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.4, "elapsed_seconds": 302.11, "error": null}
+{"ts": "2026-06-12T20:34:56.104252", "event": "task_completed", "task_id": 5062, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.4, "elapsed_seconds": 326.56, "error": null}
+{"ts": "2026-06-12T20:35:13.729769", "event": "task_completed", "task_id": 5063, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.5, "elapsed_seconds": 343.89, "error": null}
+{"ts": "2026-06-12T20:35:14.535339", "event": "task_dispatched", "task_id": 5064, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1305859}
+{"ts": "2026-06-12T20:35:14.565364", "event": "task_dispatched", "task_id": 5065, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1305873}
+{"ts": "2026-06-12T20:35:14.623231", "event": "task_dispatched", "task_id": 5066, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1305884}
+{"ts": "2026-06-12T20:37:50.910727", "event": "task_completed", "task_id": 5065, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.5, "elapsed_seconds": 154.64, "error": null}
+{"ts": "2026-06-12T20:38:16.190406", "event": "task_completed", "task_id": 5066, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.5, "elapsed_seconds": 177.31, "error": null}
+{"ts": "2026-06-12T20:38:42.047222", "event": "task_completed", "task_id": 5064, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.8, "elapsed_seconds": 205.44, "error": null}
+{"ts": "2026-06-12T20:38:42.721708", "event": "task_dispatched", "task_id": 5067, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 1315907}
+{"ts": "2026-06-12T20:38:49.755720", "event": "task_dispatched", "task_id": 5068, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 1316365}
+{"ts": "2026-06-12T20:41:20.045098", "event": "task_completed", "task_id": 5067, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.8, "elapsed_seconds": 155.33, "error": null}
+{"ts": "2026-06-12T20:47:02.681546", "event": "task_completed", "task_id": 5068, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.6, "elapsed_seconds": 492.3, "error": null}
+{"ts": "2026-06-12T20:47:03.304064", "event": "task_dispatched", "task_id": 5069, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1345959}
+{"ts": "2026-06-12T20:54:53.948772", "event": "task_completed", "task_id": 5069, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.8, "elapsed_seconds": 467.91, "error": null}
+{"ts": "2026-06-12T20:54:54.504747", "event": "task_dispatched", "task_id": 5070, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1377579}
+{"ts": "2026-06-12T21:02:33.709146", "event": "task_completed", "task_id": 5070, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.3, "elapsed_seconds": 457.16, "error": null}
+{"ts": "2026-06-12T21:02:34.220993", "event": "task_dispatched", "task_id": 5071, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1396201}
+{"ts": "2026-06-12T21:08:10.826437", "event": "task_dispatched", "task_id": 5073, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1417734}
+{"ts": "2026-06-12T21:08:13.841933", "event": "task_completed", "task_id": 5071, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.9, "elapsed_seconds": 336.13, "error": null}
+{"ts": "2026-06-12T21:13:29.467118", "event": "task_completed", "task_id": 5073, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.8, "elapsed_seconds": 317.33, "error": null}
+{"ts": "2026-06-12T21:13:29.914202", "event": "task_dispatched", "task_id": 5072, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 1437254}
+{"ts": "2026-06-12T21:19:00.086602", "event": "task_completed", "task_id": 5072, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.9, "elapsed_seconds": 328.99, "error": null}
+{"ts": "2026-06-12T21:19:00.477613", "event": "task_dispatched", "task_id": 5074, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 1457072}
+{"ts": "2026-06-12T21:27:40.140264", "event": "task_completed", "task_id": 5074, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.8, "elapsed_seconds": 519.17, "error": null}
+{"ts": "2026-06-12T21:27:40.511062", "event": "task_dispatched", "task_id": 5075, "model": "qwen2.5:14b", "task_type": "press-release", "pid": 1487195}
+{"ts": "2026-06-12T21:33:29.079546", "event": "task_completed", "task_id": 5075, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.9, "elapsed_seconds": 346.74, "error": null}
+{"ts": "2026-06-12T21:33:29.365254", "event": "task_dispatched", "task_id": 5076, "model": "qwen2.5:14b", "task_type": "press-release", "pid": 1507053}
+{"ts": "2026-06-12T21:38:16.530464", "event": "task_completed", "task_id": 5076, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.8, "elapsed_seconds": 285.15, "error": null}
+{"ts": "2026-06-12T21:38:16.762096", "event": "task_dispatched", "task_id": 5077, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1522442}
+{"ts": "2026-06-12T21:43:19.437943", "event": "task_completed", "task_id": 5077, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 302.17, "error": null}
+{"ts": "2026-06-12T21:43:19.609330", "event": "task_dispatched", "task_id": 5078, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1529821}
+{"ts": "2026-06-12T21:47:33.937563", "event": "task_completed", "task_id": 5078, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.7, "elapsed_seconds": 253.73, "error": null}
+{"ts": "2026-06-12T21:47:34.083204", "event": "task_dispatched", "task_id": 5079, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 1533967}
+{"ts": "2026-06-12T21:51:04.457086", "event": "task_completed", "task_id": 5079, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.7, "elapsed_seconds": 207.7, "error": null}
+{"ts": "2026-06-12T21:51:04.572618", "event": "task_dispatched", "task_id": 5080, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1536843}
+{"ts": "2026-06-12T21:53:57.778910", "event": "task_completed", "task_id": 5080, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.7, "elapsed_seconds": 170.15, "error": null}
+{"ts": "2026-06-12T21:53:57.867543", "event": "task_dispatched", "task_id": 5081, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 1538674}
+{"ts": "2026-06-12T21:58:42.096077", "event": "task_completed", "task_id": 5081, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.7, "elapsed_seconds": 280.99, "error": null}
+{"ts": "2026-06-12T21:58:42.156115", "event": "task_dispatched", "task_id": 5082, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 1540902}
+{"ts": "2026-06-12T22:03:12.567557", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T22:03:27.628829", "event": "task_completed", "task_id": 5082, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.6, "elapsed_seconds": 285.26, "error": null}
+{"ts": "2026-06-12T22:28:13.874882", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T22:54:15.394827", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T23:19:16.737782", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-12T23:45:18.213527", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T00:11:19.644437", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T00:36:21.153018", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T01:02:22.640742", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T01:27:24.264029", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T01:53:25.695380", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T02:18:27.255266", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T02:44:28.841420", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T03:09:30.339894", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T03:35:31.859686", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T04:00:33.356173", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T04:26:34.679728", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T04:51:36.240680", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T05:17:37.790662", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T05:42:39.325351", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T06:08:40.811617", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T06:33:42.323612", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T06:59:43.657101", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T07:24:45.139703", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T07:50:46.552113", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T08:15:47.892831", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T08:41:49.212113", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T09:06:50.549619", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T09:32:51.947680", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T09:57:53.233203", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T10:23:54.461823", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T10:48:55.711176", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T11:14:57.074193", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T11:39:58.380862", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T12:05:59.784742", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T12:31:01.144946", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T12:57:02.425663", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T13:22:03.757188", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T13:48:05.144815", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T14:13:06.377565", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T14:39:07.636811", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T15:04:08.996503", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T15:30:10.154196", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T15:55:11.308118", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T16:21:12.604103", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T16:46:13.763639", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T17:12:15.029758", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T17:37:16.338107", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T18:03:17.598579", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T18:28:18.870603", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T18:54:20.164799", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T19:19:21.493602", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T19:45:22.873281", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T20:10:24.165189", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T20:36:25.429758", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T21:01:26.993255", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T21:27:28.317198", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T21:52:29.761156", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T22:18:31.146292", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T22:43:32.602396", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T23:09:34.112107", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-13T23:34:35.429469", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T00:00:36.777153", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T00:25:38.150478", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T00:51:39.654252", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T01:16:41.019639", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T01:42:42.341196", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T02:08:43.803199", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T02:33:45.096318", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T02:59:46.414087", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T03:24:47.707676", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T03:50:49.116536", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T04:15:50.395184", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T04:41:51.785200", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T05:06:53.095479", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T05:32:54.651913", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T05:57:56.093847", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T06:23:57.508832", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T06:48:58.834073", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T07:15:00.131389", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T07:40:01.550777", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T08:06:02.867001", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T08:31:04.300398", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T08:57:05.673344", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T09:22:06.962525", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T09:48:08.358235", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T10:13:09.700104", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T10:39:10.938596", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T11:04:12.207336", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T11:30:13.580640", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T11:55:14.790456", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T12:21:16.141265", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T12:46:17.686960", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T13:12:19.003087", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T13:37:20.353404", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T14:03:21.693564", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T14:28:23.065702", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T14:54:24.502168", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T15:19:25.699157", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T15:45:27.139517", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T16:10:28.471284", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T16:36:29.913150", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T17:01:31.211767", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T17:27:32.624085", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T17:52:33.918220", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T18:18:35.422586", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T18:43:36.773619", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T19:09:38.158143", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T19:34:39.548479", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T20:00:40.973407", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T20:25:42.433408", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T20:51:43.863659", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T21:16:45.445682", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T21:42:46.826849", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T22:08:48.333755", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T22:33:49.667596", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T22:59:51.039634", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T23:24:52.593867", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-14T23:50:54.094633", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T00:15:55.400384", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T00:41:56.878553", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T01:06:58.133939", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T01:32:59.445193", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T01:58:00.716085", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T02:24:02.068385", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T02:49:03.353351", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T03:15:04.623398", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T03:40:05.935514", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T04:06:07.203200", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T04:31:08.419142", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T04:57:09.662356", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T05:22:10.906953", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T05:48:12.153200", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T06:13:13.403358", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T06:39:14.676492", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T07:04:15.803759", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T07:30:17.077687", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T07:55:18.202997", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T08:21:19.510994", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T08:46:20.833118", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T09:12:22.060103", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T09:37:23.420700", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T10:03:24.714198", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T10:28:26.010321", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T10:54:27.475336", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T11:19:28.760010", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T11:23:44.154137", "event": "task_dispatched", "task_id": 5083, "model": "llama3.2:3b", "task_type": "", "pid": 2232986}
+{"ts": "2026-06-15T11:23:44.180706", "event": "task_dispatched", "task_id": 5084, "model": "llama3.2:3b", "task_type": "", "pid": 2232994}
+{"ts": "2026-06-15T11:23:44.209347", "event": "task_dispatched", "task_id": 5085, "model": "llama3.2:3b", "task_type": "", "pid": 2233002}
+{"ts": "2026-06-15T11:24:14.236409", "event": "task_completed", "task_id": 5085, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 5.1, "elapsed_seconds": 28.81, "error": null}
+{"ts": "2026-06-15T11:24:17.270100", "event": "task_dispatched", "task_id": 5123, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 2233998}
+{"ts": "2026-06-15T11:24:23.281257", "event": "task_completed", "task_id": 5083, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 4.5, "elapsed_seconds": 38.75, "error": null}
+{"ts": "2026-06-15T11:24:27.864272", "event": "task_dispatched", "task_id": 5086, "model": "llama3.2:3b", "task_type": "", "pid": 2234792}
+{"ts": "2026-06-15T11:24:30.878579", "event": "task_completed", "task_id": 5084, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 4.9, "elapsed_seconds": 45.54, "error": null}
+{"ts": "2026-06-15T11:24:38.084342", "event": "task_dispatched", "task_id": 5087, "model": "llama3.2:3b", "task_type": "", "pid": 2235589}
+{"ts": "2026-06-15T11:25:14.196565", "event": "task_completed", "task_id": 5086, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.9, "elapsed_seconds": 27.79, "error": null}
+{"ts": "2026-06-15T11:25:14.202688", "event": "task_completed", "task_id": 5087, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.0, "elapsed_seconds": 32.03, "error": null}
+{"ts": "2026-06-15T11:25:17.591808", "event": "task_dispatched", "task_id": 5088, "model": "llama3.2:3b", "task_type": "", "pid": 2236645}
+{"ts": "2026-06-15T11:25:17.634615", "event": "task_dispatched", "task_id": 5089, "model": "llama3.2:3b", "task_type": "", "pid": 2236653}
+{"ts": "2026-06-15T11:25:59.671456", "event": "task_completed", "task_id": 5088, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.0, "elapsed_seconds": 40.66, "error": null}
+{"ts": "2026-06-15T11:26:04.006299", "event": "task_dispatched", "task_id": 5090, "model": "llama3.2:3b", "task_type": "", "pid": 2237946}
+{"ts": "2026-06-15T11:26:13.024455", "event": "task_completed", "task_id": 5089, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.3, "elapsed_seconds": 55.16, "error": null}
+{"ts": "2026-06-15T11:26:18.044487", "event": "task_dispatched", "task_id": 5091, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 2238716}
+{"ts": "2026-06-15T11:26:42.127388", "event": "task_completed", "task_id": 5090, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 36.47, "error": null}
+{"ts": "2026-06-15T11:26:46.842280", "event": "task_dispatched", "task_id": 5092, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 2239588}
+{"ts": "2026-06-15T11:27:43.949448", "event": "task_completed", "task_id": 5091, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 85.44, "error": null}
+{"ts": "2026-06-15T11:27:48.103261", "event": "task_dispatched", "task_id": 5093, "model": "llama3.2:3b", "task_type": "social-twitter", "pid": 2240704}
+{"ts": "2026-06-15T11:28:21.130411", "event": "task_completed", "task_id": 5092, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 92.52, "error": null}
+{"ts": "2026-06-15T11:28:25.323563", "event": "task_dispatched", "task_id": 5094, "model": "llama3.2:3b", "task_type": "social-instagram", "pid": 2241641}
+{"ts": "2026-06-15T11:28:58.402679", "event": "task_completed", "task_id": 5123, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.9, "elapsed_seconds": 280.56, "error": null}
+{"ts": "2026-06-15T11:29:01.200388", "event": "task_dispatched", "task_id": 5124, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 2242527}
+{"ts": "2026-06-15T11:29:13.222647", "event": "task_completed", "task_id": 5093, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 83.64, "error": null}
+{"ts": "2026-06-15T11:29:13.228363", "event": "task_completed", "task_id": 5094, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.8, "elapsed_seconds": 45.97, "error": null}
+{"ts": "2026-06-15T11:29:16.189418", "event": "task_dispatched", "task_id": 5095, "model": "llama3.2:3b", "task_type": "social-instagram", "pid": 2243259}
+{"ts": "2026-06-15T11:29:16.242216", "event": "task_dispatched", "task_id": 5096, "model": "llama3.2:3b", "task_type": "social-linkedin", "pid": 2243268}
+{"ts": "2026-06-15T11:30:22.351400", "event": "task_completed", "task_id": 5096, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 65.65, "error": null}
+{"ts": "2026-06-15T11:30:27.144408", "event": "task_dispatched", "task_id": 5097, "model": "llama3.2:3b", "task_type": "social-linkedin", "pid": 2244434}
+{"ts": "2026-06-15T11:31:57.417934", "event": "task_completed", "task_id": 5124, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.0, "elapsed_seconds": 175.96, "error": null}
+{"ts": "2026-06-15T11:31:57.424446", "event": "task_completed", "task_id": 5095, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.3, "elapsed_seconds": 158.93, "error": null}
+{"ts": "2026-06-15T11:32:01.828129", "event": "task_dispatched", "task_id": 5098, "model": "llama3.2:3b", "task_type": "social-tiktok", "pid": 2245706}
+{"ts": "2026-06-15T11:32:01.878319", "event": "task_dispatched", "task_id": 5099, "model": "llama3.2:3b", "task_type": "social-reddit", "pid": 2245713}
+{"ts": "2026-06-15T11:32:10.892530", "event": "task_completed", "task_id": 5097, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 102.38, "error": null}
+{"ts": "2026-06-15T11:32:13.849940", "event": "task_dispatched", "task_id": 5125, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 2246402}
+{"ts": "2026-06-15T11:32:55.883542", "event": "task_completed", "task_id": 5099, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.9, "elapsed_seconds": 51.52, "error": null}
+{"ts": "2026-06-15T11:33:00.034435", "event": "task_dispatched", "task_id": 5100, "model": "llama3.2:3b", "task_type": "social-facebook", "pid": 2247608}
+{"ts": "2026-06-15T11:33:09.057902", "event": "task_completed", "task_id": 5098, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.9, "elapsed_seconds": 65.36, "error": null}
+{"ts": "2026-06-15T11:33:13.640063", "event": "task_dispatched", "task_id": 5101, "model": "llama3.2:3b", "task_type": "", "pid": 2248283}
+{"ts": "2026-06-15T11:33:34.666596", "event": "task_completed", "task_id": 5100, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.4, "elapsed_seconds": 33.06, "error": null}
+{"ts": "2026-06-15T11:33:38.295305", "event": "task_dispatched", "task_id": 5102, "model": "llama3.2:3b", "task_type": "", "pid": 2249046}
+{"ts": "2026-06-15T11:34:17.398339", "event": "task_completed", "task_id": 5101, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 62.52, "error": null}
+{"ts": "2026-06-15T11:34:20.830359", "event": "task_dispatched", "task_id": 5103, "model": "llama3.2:3b", "task_type": "", "pid": 2249977}
+{"ts": "2026-06-15T11:35:08.868371", "event": "task_completed", "task_id": 5102, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 88.03, "error": null}
+{"ts": "2026-06-15T11:35:12.519477", "event": "task_dispatched", "task_id": 5104, "model": "llama3.2:3b", "task_type": "", "pid": 2251030}
+{"ts": "2026-06-15T11:35:48.608443", "event": "task_completed", "task_id": 5103, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 84.91, "error": null}
+{"ts": "2026-06-15T11:35:52.160464", "event": "task_dispatched", "task_id": 5105, "model": "llama3.2:3b", "task_type": "", "pid": 2251928}
+{"ts": "2026-06-15T11:36:07.176646", "event": "task_completed", "task_id": 5125, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.8, "elapsed_seconds": 232.68, "error": null}
+{"ts": "2026-06-15T11:36:09.747311", "event": "task_dispatched", "task_id": 5126, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 2252595}
+{"ts": "2026-06-15T11:37:12.853431", "event": "task_completed", "task_id": 5104, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 119.34, "error": null}
+{"ts": "2026-06-15T11:37:16.238889", "event": "task_dispatched", "task_id": 5106, "model": "llama3.2:3b", "task_type": "", "pid": 2253693}
+{"ts": "2026-06-15T11:37:31.303467", "event": "task_completed", "task_id": 5105, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 98.75, "error": null}
+{"ts": "2026-06-15T11:37:34.432880", "event": "task_dispatched", "task_id": 5107, "model": "llama3.2:3b", "task_type": "", "pid": 2254387}
+{"ts": "2026-06-15T11:38:31.540397", "event": "task_completed", "task_id": 5106, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 74.23, "error": null}
+{"ts": "2026-06-15T11:38:34.745196", "event": "task_dispatched", "task_id": 5108, "model": "llama3.2:3b", "task_type": "", "pid": 2255435}
+{"ts": "2026-06-15T11:38:40.752828", "event": "task_completed", "task_id": 5107, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 65.45, "error": null}
+{"ts": "2026-06-15T11:38:43.954260", "event": "task_dispatched", "task_id": 5109, "model": "llama3.2:3b", "task_type": "", "pid": 2256002}
+{"ts": "2026-06-15T11:39:25.998448", "event": "task_completed", "task_id": 5108, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 48.86, "error": null}
+{"ts": "2026-06-15T11:39:29.069145", "event": "task_dispatched", "task_id": 5110, "model": "llama3.2:3b", "task_type": "", "pid": 2256879}
+{"ts": "2026-06-15T11:39:35.077375", "event": "task_completed", "task_id": 5126, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.0, "elapsed_seconds": 204.53, "error": null}
+{"ts": "2026-06-15T11:39:37.491444", "event": "task_dispatched", "task_id": 5127, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 2257404}
+{"ts": "2026-06-15T11:40:04.572020", "event": "task_completed", "task_id": 5109, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 78.09, "error": null}
+{"ts": "2026-06-15T11:40:07.565221", "event": "task_dispatched", "task_id": 5111, "model": "llama3.2:3b", "task_type": "", "pid": 2258137}
+{"ts": "2026-06-15T11:40:16.591640", "event": "task_completed", "task_id": 5110, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.8, "elapsed_seconds": 45.16, "error": null}
+{"ts": "2026-06-15T11:40:19.450183", "event": "task_dispatched", "task_id": 5112, "model": "llama3.2:3b", "task_type": "", "pid": 2258701}
+{"ts": "2026-06-15T11:42:07.663521", "event": "task_completed", "task_id": 5112, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 106.11, "error": null}
+{"ts": "2026-06-15T11:42:10.761155", "event": "task_dispatched", "task_id": 5113, "model": "llama3.2:3b", "task_type": "", "pid": 2260154}
+{"ts": "2026-06-15T11:43:01.856065", "event": "task_completed", "task_id": 5127, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.0, "elapsed_seconds": 202.64, "error": null}
+{"ts": "2026-06-15T11:43:01.862174", "event": "task_completed", "task_id": 5111, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.4, "elapsed_seconds": 173.12, "error": null}
+{"ts": "2026-06-15T11:43:03.972829", "event": "task_dispatched", "task_id": 5114, "model": "llama3.2:3b", "task_type": "", "pid": 2261149}
+{"ts": "2026-06-15T11:43:04.010336", "event": "task_dispatched", "task_id": 5115, "model": "llama3.2:3b", "task_type": "", "pid": 2261158}
+{"ts": "2026-06-15T11:43:10.018027", "event": "task_completed", "task_id": 5113, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 57.54, "error": null}
+{"ts": "2026-06-15T11:43:11.942396", "event": "task_dispatched", "task_id": 5128, "model": "qwen2.5:7b", "task_type": "blog-post", "pid": 2261639}
+{"ts": "2026-06-15T11:44:06.021441", "event": "task_completed", "task_id": 5114, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.4, "elapsed_seconds": 60.5, "error": null}
+{"ts": "2026-06-15T11:44:08.716692", "event": "task_dispatched", "task_id": 5116, "model": "llama3.2:3b", "task_type": "", "pid": 2262724}
+{"ts": "2026-06-15T11:45:53.887432", "event": "task_completed", "task_id": 5115, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 2.9, "elapsed_seconds": 167.92, "error": null}
+{"ts": "2026-06-15T11:45:56.461386", "event": "task_dispatched", "task_id": 5117, "model": "llama3.2:3b", "task_type": "", "pid": 2264231}
+{"ts": "2026-06-15T11:47:02.619460", "event": "task_completed", "task_id": 5128, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.9, "elapsed_seconds": 227.87, "error": null}
+{"ts": "2026-06-15T11:47:04.678379", "event": "task_dispatched", "task_id": 5129, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 2265228}
+{"ts": "2026-06-15T11:47:55.714250", "event": "task_completed", "task_id": 5117, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.3, "elapsed_seconds": 117.41, "error": null}
+{"ts": "2026-06-15T11:47:58.218410", "event": "task_dispatched", "task_id": 5118, "model": "llama3.2:3b", "task_type": "", "pid": 2266057}
+{"ts": "2026-06-15T11:48:10.292454", "event": "task_failed", "task_id": 5116, "status": "failed", "model": "llama3.2:3b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to llama3.2:3b (timeout=240s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-15T11:48:12.546386", "event": "task_dispatched", "task_id": 5119, "model": "llama3.2:3b", "task_type": "", "pid": 2266547}
+{"ts": "2026-06-15T11:48:45.579400", "event": "task_completed", "task_id": 5118, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.5, "elapsed_seconds": 46.7, "error": null}
+{"ts": "2026-06-15T11:48:47.828331", "event": "task_dispatched", "task_id": 5120, "model": "llama3.2:3b", "task_type": "", "pid": 2267242}
+{"ts": "2026-06-15T11:48:59.847447", "event": "task_completed", "task_id": 5129, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.0, "elapsed_seconds": 114.77, "error": null}
+{"ts": "2026-06-15T11:49:01.658645", "event": "task_dispatched", "task_id": 5130, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 2267708}
+{"ts": "2026-06-15T11:49:52.743477", "event": "task_completed", "task_id": 5120, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 62.56, "error": null}
+{"ts": "2026-06-15T11:49:55.415518", "event": "task_dispatched", "task_id": 5121, "model": "llama3.2:3b", "task_type": "", "pid": 2268584}
+{"ts": "2026-06-15T11:50:01.425376", "event": "task_completed", "task_id": 5119, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 107.28, "error": null}
+{"ts": "2026-06-15T11:50:03.599815", "event": "task_dispatched", "task_id": 5122, "model": "llama3.2:3b", "task_type": "", "pid": 2268997}
+{"ts": "2026-06-15T11:51:06.701795", "event": "task_completed", "task_id": 5130, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.1, "elapsed_seconds": 122.73, "error": null}
+{"ts": "2026-06-15T11:51:08.368533", "event": "task_dispatched", "task_id": 5131, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 2269938}
+{"ts": "2026-06-15T11:51:23.440816", "event": "task_completed", "task_id": 5122, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.6, "elapsed_seconds": 77.36, "error": null}
+{"ts": "2026-06-15T11:51:27.926581", "event": "task_completed", "task_id": 5121, "status": "completed", "model": "llama3.2:3b", "tokens_per_second": 3.7, "elapsed_seconds": 88.13, "error": null}
+{"ts": "2026-06-15T11:52:36.521226", "event": "task_completed", "task_id": 5131, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 4.4, "elapsed_seconds": 84.61, "error": null}
+{"ts": "2026-06-15T11:52:37.597462", "event": "task_dispatched", "task_id": 5132, "model": "qwen2.5:7b", "task_type": "press-release", "pid": 2275757}
+{"ts": "2026-06-15T11:52:37.621357", "event": "task_dispatched", "task_id": 5133, "model": "qwen2.5:7b", "task_type": "landing-page", "pid": 2275765}
+{"ts": "2026-06-15T11:52:37.656344", "event": "task_dispatched", "task_id": 5134, "model": "qwen2.5:7b", "task_type": "landing-page", "pid": 2275773}
+{"ts": "2026-06-15T11:56:40.976621", "event": "task_completed", "task_id": 5132, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.9, "elapsed_seconds": 242.82, "error": null}
+{"ts": "2026-06-15T11:56:49.757411", "event": "task_completed", "task_id": 5133, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.9, "elapsed_seconds": 251.55, "error": null}
+{"ts": "2026-06-15T11:56:54.136985", "event": "task_completed", "task_id": 5134, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.9, "elapsed_seconds": 255.27, "error": null}
+{"ts": "2026-06-15T11:56:55.148801", "event": "task_dispatched", "task_id": 5135, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 2278106}
+{"ts": "2026-06-15T11:56:55.174613", "event": "task_dispatched", "task_id": 5136, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 2278114}
+{"ts": "2026-06-15T11:56:55.202308", "event": "task_dispatched", "task_id": 5137, "model": "qwen2.5:7b", "task_type": "web-page", "pid": 2278122}
+{"ts": "2026-06-15T11:59:52.436606", "event": "task_completed", "task_id": 5135, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.0, "elapsed_seconds": 176.79, "error": null}
+{"ts": "2026-06-15T12:00:57.614829", "event": "task_completed", "task_id": 5137, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.1, "elapsed_seconds": 238.55, "error": null}
+{"ts": "2026-06-15T12:01:10.333947", "event": "task_completed", "task_id": 5136, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.3, "elapsed_seconds": 252.69, "error": null}
+{"ts": "2026-06-15T12:01:11.231881", "event": "task_dispatched", "task_id": 5138, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 2284089}
+{"ts": "2026-06-15T12:01:11.256286", "event": "task_dispatched", "task_id": 5139, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 2284097}
+{"ts": "2026-06-15T12:01:11.287155", "event": "task_dispatched", "task_id": 5140, "model": "qwen2.5:7b", "task_type": "email-template", "pid": 2284105}
+{"ts": "2026-06-15T12:03:20.459139", "event": "task_completed", "task_id": 5139, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.0, "elapsed_seconds": 128.55, "error": null}
+{"ts": "2026-06-15T12:03:53.450274", "event": "task_completed", "task_id": 5140, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.1, "elapsed_seconds": 159.13, "error": null}
+{"ts": "2026-06-15T12:04:01.801986", "event": "task_completed", "task_id": 5138, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.2, "elapsed_seconds": 167.37, "error": null}
+{"ts": "2026-06-15T12:04:02.600214", "event": "task_dispatched", "task_id": 5141, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 2287460}
+{"ts": "2026-06-15T12:04:02.623209", "event": "task_dispatched", "task_id": 5142, "model": "qwen2.5:7b", "task_type": "social-linkedin", "pid": 2287468}
+{"ts": "2026-06-15T12:04:02.663256", "event": "task_dispatched", "task_id": 5143, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 2287476}
+{"ts": "2026-06-15T12:06:56.865085", "event": "task_completed", "task_id": 5143, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.0, "elapsed_seconds": 173.36, "error": null}
+{"ts": "2026-06-15T12:08:56.246847", "event": "task_completed", "task_id": 5142, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.2, "elapsed_seconds": 293.44, "error": null}
+{"ts": "2026-06-15T12:09:00.145790", "event": "task_completed", "task_id": 5141, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.2, "elapsed_seconds": 295.72, "error": null}
+{"ts": "2026-06-15T12:09:00.855446", "event": "task_dispatched", "task_id": 5144, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 2295639}
+{"ts": "2026-06-15T12:09:00.879949", "event": "task_dispatched", "task_id": 5145, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 2295648}
+{"ts": "2026-06-15T12:09:00.910585", "event": "task_dispatched", "task_id": 5146, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 2295656}
+{"ts": "2026-06-15T12:12:28.174795", "event": "task_completed", "task_id": 5146, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 1.9, "elapsed_seconds": 204.55, "error": null}
+{"ts": "2026-06-15T12:12:59.534547", "event": "task_completed", "task_id": 5145, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.0, "elapsed_seconds": 237.09, "error": null}
+{"ts": "2026-06-15T12:13:03.382320", "event": "task_completed", "task_id": 5144, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 2.0, "elapsed_seconds": 240.96, "error": null}
+{"ts": "2026-06-15T12:13:04.000936", "event": "task_dispatched", "task_id": 5147, "model": "qwen2.5:7b", "task_type": "investor-doc", "pid": 2298683}
+{"ts": "2026-06-15T12:13:10.917767", "event": "task_dispatched", "task_id": 5148, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 2298898}
+{"ts": "2026-06-15T12:15:14.090384", "event": "task_completed", "task_id": 5147, "status": "completed", "model": "qwen2.5:7b", "tokens_per_second": 3.2, "elapsed_seconds": 129.97, "error": null}
+{"ts": "2026-06-15T12:19:09.295282", "event": "task_completed", "task_id": 5148, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.2, "elapsed_seconds": 357.82, "error": null}
+{"ts": "2026-06-15T12:19:09.852565", "event": "task_dispatched", "task_id": 5149, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 2310566}
+{"ts": "2026-06-15T12:23:44.895571", "event": "task_completed", "task_id": 5149, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 274.12, "error": null}
+{"ts": "2026-06-15T12:23:45.416708", "event": "task_dispatched", "task_id": 5150, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 2322398}
+{"ts": "2026-06-15T12:30:43.968682", "event": "task_completed", "task_id": 5150, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.4, "elapsed_seconds": 417.38, "error": null}
+{"ts": "2026-06-15T12:30:44.452795", "event": "task_dispatched", "task_id": 5151, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 2339630}
+{"ts": "2026-06-15T12:35:12.816691", "event": "task_completed", "task_id": 5151, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 266.21, "error": null}
+{"ts": "2026-06-15T12:35:13.288119", "event": "task_dispatched", "task_id": 5152, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 2350174}
+{"ts": "2026-06-15T12:40:18.299460", "event": "task_completed", "task_id": 5152, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 304.37, "error": null}
+{"ts": "2026-06-15T12:40:18.728499", "event": "task_dispatched", "task_id": 5153, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 2361529}
+{"ts": "2026-06-15T12:44:30.020346", "event": "task_completed", "task_id": 5153, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 248.78, "error": null}
+{"ts": "2026-06-15T12:44:30.419951", "event": "task_dispatched", "task_id": 5154, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 2370305}
+{"ts": "2026-06-15T12:48:52.768906", "event": "task_completed", "task_id": 5154, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.6, "elapsed_seconds": 259.89, "error": null}
+{"ts": "2026-06-15T12:48:53.133844", "event": "task_dispatched", "task_id": 5155, "model": "qwen2.5:14b", "task_type": "press-release", "pid": 2378900}
+{"ts": "2026-06-15T12:52:47.868061", "event": "task_completed", "task_id": 5155, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.6, "elapsed_seconds": 234.53, "error": null}
+{"ts": "2026-06-15T12:52:48.216599", "event": "task_dispatched", "task_id": 5156, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 2386093}
+{"ts": "2026-06-15T12:57:24.185792", "event": "task_completed", "task_id": 5156, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 273.59, "error": null}
+{"ts": "2026-06-15T12:57:24.489956", "event": "task_dispatched", "task_id": 5157, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 2393939}
+{"ts": "2026-06-15T13:03:28.891639", "event": "task_completed", "task_id": 5157, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.5, "elapsed_seconds": 361.43, "error": null}
+{"ts": "2026-06-15T13:03:29.160528", "event": "task_dispatched", "task_id": 5158, "model": "qwen2.5:14b", "task_type": "investor-doc", "pid": 2403573}
+{"ts": "2026-06-15T13:07:31.871187", "event": "task_completed", "task_id": 5158, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 2.6, "elapsed_seconds": 239.57, "error": null}
+{"ts": "2026-06-15T13:07:32.113721", "event": "task_dispatched", "task_id": 5159, "model": "qwen2.5:14b", "task_type": "blog-post", "pid": 2409443}
+{"ts": "2026-06-15T13:07:38.414688", "event": "task_dispatched", "task_id": 5160, "model": "qwen2.5:32b", "task_type": "investor-doc", "pid": 2409534}
+{"ts": "2026-06-15T13:12:56.879102", "event": "task_completed", "task_id": 5159, "status": "completed", "model": "qwen2.5:14b", "tokens_per_second": 1.6, "elapsed_seconds": 322.17, "error": null}
+{"ts": "2026-06-15T13:17:39.123929", "event": "task_failed", "task_id": 5160, "status": "failed", "model": "qwen2.5:32b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:32b (timeout=600s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-15T13:17:39.415392", "event": "task_dispatched", "task_id": 5161, "model": "qwen2.5:32b", "task_type": "blog-post", "pid": 2412294}
+{"ts": "2026-06-15T13:27:40.066069", "event": "task_failed", "task_id": 5161, "status": "failed", "model": "qwen2.5:32b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:32b (timeout=600s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-15T13:27:40.291320", "event": "task_dispatched", "task_id": 5162, "model": "qwen2.5:32b", "task_type": "blog-post", "pid": 2414687}
+{"ts": "2026-06-15T13:37:40.891746", "event": "task_failed", "task_id": 5162, "status": "failed", "model": "qwen2.5:32b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:32b (timeout=600s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-15T13:37:41.060763", "event": "task_dispatched", "task_id": 5163, "model": "qwen2.5:32b", "task_type": "blog-post", "pid": 2417032}
+{"ts": "2026-06-15T13:47:41.669979", "event": "task_failed", "task_id": 5163, "status": "failed", "model": "qwen2.5:32b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:32b (timeout=600s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-15T13:47:41.823317", "event": "task_dispatched", "task_id": 5164, "model": "qwen2.5:32b", "task_type": "investor-doc", "pid": 2419339}
+{"ts": "2026-06-15T13:57:42.431070", "event": "task_failed", "task_id": 5164, "status": "failed", "model": "qwen2.5:32b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:32b (timeout=600s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-15T13:57:42.513218", "event": "task_dispatched", "task_id": 5165, "model": "qwen2.5:32b", "task_type": "investor-doc", "pid": 2421595}
+{"ts": "2026-06-15T14:07:43.092629", "event": "task_failed", "task_id": 5165, "status": "failed", "model": "qwen2.5:32b", "tokens_per_second": 0.0, "elapsed_seconds": 0.0, "error": "\u2192 Dispatching to qwen2.5:32b (timeout=600s)...\n\nERROR: timed out (timeout \u2014 not retried)"}
+{"ts": "2026-06-15T14:07:46.138914", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T14:16:46.588029", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T14:42:47.713181", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T15:07:48.854443", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T15:33:50.041234", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T15:58:51.186977", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T16:24:52.335869", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T16:49:53.459293", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T17:15:54.604960", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T17:40:55.724762", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T18:06:56.857534", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T18:32:58.001334", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T18:57:59.073194", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T19:24:00.211797", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T19:49:01.285429", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T20:15:02.437463", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T20:40:03.533905", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T21:06:04.657460", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T21:31:05.729978", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T21:57:06.863762", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T22:22:08.125344", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T22:48:09.401984", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T23:13:10.547158", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-15T23:39:11.769359", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T00:04:12.912712", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T00:30:14.282129", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T00:55:15.527199", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T01:21:16.861745", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T01:46:18.190698", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T02:12:19.391684", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T02:37:20.598538", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T03:03:21.804542", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T03:28:23.004022", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T03:54:24.168195", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T04:19:25.361194", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T04:45:26.608427", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T05:10:27.917460", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T05:36:29.366205", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T06:01:30.663056", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T06:27:31.946878", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T06:52:33.243041", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T07:18:34.546287", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T07:43:35.787299", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T08:09:36.992257", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T08:34:38.282398", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T09:00:39.550851", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T09:25:40.894534", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T09:51:42.204956", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T10:16:43.552304", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T10:42:44.950539", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T11:07:46.309872", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T11:33:47.535208", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T11:59:48.870345", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T12:24:49.972511", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T12:50:51.091196", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T13:15:52.227275", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T13:41:53.404537", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T14:06:54.560365", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}

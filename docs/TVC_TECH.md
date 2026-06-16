@@ -1,4 +1,4 @@
-# Diligence: ABLTV Technical Moat
+# Diligence: TVC Technical Moat
 
 ## 1. The Appendage Era vs. The Modulator Era
 Traditional maritime propulsion relies on mechanical appendages (rudders, skegs, outboard props) to redirect water. This creates **parasitic drag** even when moving in a straight line.
@@ -7,7 +7,7 @@ Traditional maritime propulsion relies on mechanical appendages (rudders, skegs,
 - **Mechanical Failure:** 60% of small-to-medium vessel engine failures are linked to mechanical linkage or propeller/rudder snagging.
 - **Efficiency Loss:** Up to 12% energy loss due to rudder surface area.
 
-## 2. ABLTV: Active Boundary Layer Thrust Vectoring
+## 2. TVC: Thrust Vector Control
 Fluidity Marine utilizes a synchronized transom jet array to modulate the **boundary layer** of the hull. 
 
 ### How it works:
