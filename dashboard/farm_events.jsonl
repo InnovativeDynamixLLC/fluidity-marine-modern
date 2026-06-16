@@ -842,3 +842,5 @@
 {"ts": "2026-06-16T13:15:52.227275", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
 {"ts": "2026-06-16T13:41:53.404537", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
 {"ts": "2026-06-16T14:06:54.560365", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T14:32:55.738426", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
+{"ts": "2026-06-16T14:57:56.869402", "event": "model_unloaded", "model": "qwen2.5:32b", "reason": "idle_no_tasks"}
