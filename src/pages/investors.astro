@@ -24,7 +24,7 @@ import Layout from '../layouts/Layout.astro';
     <section class="stats-grid animate-in delay-1">
       <div class="stat-card glass-box">
         <span class="stat-card-label">Raise Target</span>
-        <span class="stat-card-value">$5,000,000</span>
+        <span class="stat-card-value">$3M–$5M</span>
       </div>
       <div class="stat-card glass-box">
         <span class="stat-card-label">Platform</span>
@@ -36,9 +36,21 @@ import Layout from '../layouts/Layout.astro';
       </div>
       <div class="stat-card glass-box">
         <span class="stat-card-label">Instrument</span>
-        <span class="stat-card-value">MFN SAFE</span>
+        <span class="stat-card-value">MFN SAFE · $20M Cap</span>
       </div>
     </section>
+
+    <!-- Sticky deal box -->
+    <div class="deal-box">
+      <div class="deal-box-terms">
+        <span><strong>$3M–$5M</strong> seed raise</span>
+        <span class="deal-dot">·</span>
+        <span><strong>$20M</strong> post-money cap</span>
+        <span class="deal-dot">·</span>
+        <span>MFN SAFE</span>
+      </div>
+      <a href="https://wefunder.com/fluidity" class="button button-primary deal-box-cta" target="_blank" rel="noopener">Invest on Wefunder</a>
+    </div>
 
     <!-- The Investment Thesis -->
     <hr class="divider" />
@@ -95,7 +107,7 @@ import Layout from '../layouts/Layout.astro';
           </div>
           <div class="safe-item">
             <span class="safe-label">Valuation Cap</span>
-            <span class="safe-value highlight">None — uncapped</span>
+            <span class="safe-value highlight">$20M post-money</span>
           </div>
           <div class="safe-item">
             <span class="safe-label">Discount Rate</span>
@@ -107,7 +119,7 @@ import Layout from '../layouts/Layout.astro';
           </div>
           <div class="safe-item">
             <span class="safe-label">Minimum via Wefunder</span>
-            <span class="safe-value">$500</span>
+            <span class="safe-value">$100</span>
           </div>
           <div class="safe-item">
             <span class="safe-label">Private Placement Min</span>
@@ -123,6 +135,7 @@ import Layout from '../layouts/Layout.astro';
           </div>
         </div>
       </div>
+      <p class="postmoney-note">A $20M <em>post-money</em> cap means your investment converts at a maximum $20M valuation — if our priced round lands higher, you keep the discount. Simple, transparent, founder-friendly.</p>
     </section>
 
     <!-- Use of Funds (Detailed) -->
@@ -199,6 +212,7 @@ import Layout from '../layouts/Layout.astro';
     <section class="financials-section animate-in delay-3">
       <h2 class="section-title">3-Year Projections</h2>
       <p class="section-subtitle">Capital-efficient path to a licensing-driven, high-margin business model.</p>
+      <p class="disclaimer-note">Illustrative projections, not guarantees. Actual results may differ materially.</p>
 
       <div class="comparison-table-wrapper">
         <table class="financials-table">
@@ -273,11 +287,22 @@ import Layout from '../layouts/Layout.astro';
 
       <div class="team-grid">
         <div class="card team-card team-lead">
-          <div class="team-avatar">AE</div>
+          <img class="team-photo" src="https://media.licdn.com/dms/image/v2/C5103AQFs6WAttXIQag/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516256151309?e=1793836800&v=beta&t=1nNkpYPd3xcVQ0FK4goZYpwtmYolO5l_SBGL_HX_98E" alt="Aaron Evans" loading="lazy" />
           <div class="team-info">
             <h3>Aaron Evans</h3>
             <span class="team-role">CEO / Chief Scientist</span>
-            <p>Inventor of TVC. Conceived the thrust vectoring architecture and led design from first-principles fluid dynamics through CAD and simulation. Cross-disciplinary: naval architecture, mechatronics, and embedded control.</p>
+            <p>Inventor of TVC. Conceived the thrust vectoring architecture and led design from first-principles fluid dynamics through CAD and simulation. Two decades in technology leadership — Senior Cloud Architect (Media &amp; Entertainment) at AWS, Sr. End-to-End Architect at NBCUniversal, founder of Innovative Dynamix.</p>
+            <a class="team-linkedin" href="https://www.linkedin.com/in/aaronrayevans/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="card team-card">
+          <img class="team-photo" src="https://media.licdn.com/dms/image/v2/D5603AQF7Q47KBWQuUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1692779920571?e=1793836800&v=beta&t=3ycJLlz-nI0Kj8SahYs4XKMPE2nx1_SH3hPHU7mVhlw" alt="Gabriel Grünbaum" loading="lazy" />
+          <div class="team-info">
+            <h3>Gabriel Grünbaum</h3>
+            <span class="team-role">Business Development &amp; Strategy</span>
+            <p>Executive Founding Partner at Innovative Dynamix (Strategy &amp; Business Development). M&amp;E executive bridging business, tech, and creative — leads partnerships, strategy, and go-to-market for Fluidity Marine.</p>
+            <a class="team-linkedin" href="https://www.linkedin.com/in/gabrielgrunbaum/" target="_blank" rel="noopener">LinkedIn ↗</a>
           </div>
         </div>
 
@@ -338,12 +363,12 @@ import Layout from '../layouts/Layout.astro';
           <h4>Executive Summary</h4>
           <p>Company overview, technology, market, and investment highlights</p>
         </a>
-        <a href="/DATA_ROOM_TEMPLATES/pitch-deck.pdf" class="card data-room-card" target="_blank" rel="noopener">
+        <a href="https://docs.google.com/presentation/d/1whrvL2uzM2Pyatfffx1Ey33oZFZtDRXGXg9AmM77PLE/export/pdf" class="card data-room-card" target="_blank" rel="noopener">
           <div class="data-room-icon">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
           </div>
-          <h4>Pitch Deck</h4>
-          <p>Full investor deck covering all aspects of the opportunity</p>
+          <h4>Pitch Deck — Download</h4>
+          <p>Full investor deck covering all aspects of the opportunity (PDF)</p>
         </a>
         <a href="/DATA_ROOM_TEMPLATES/financial-model.xlsx" class="card data-room-card" target="_blank" rel="noopener">
           <div class="data-room-icon">
@@ -461,11 +486,11 @@ import Layout from '../layouts/Layout.astro';
       <div class="faq-list">
         <div class="faq-item glass-box">
           <h4>What is the minimum investment?</h4>
-          <p>$500 via Wefunder (community round). $100,000 minimum for private placement accredited investors. $50,000 minimum for private SAFE.</p>
+          <p>$100 via Wefunder (community round, testing-the-waters reservations). $100,000 minimum for private placement accredited investors. $50,000 minimum for private SAFE.</p>
         </div>
         <div class="faq-item glass-box">
           <h4>What is the valuation and instrument type?</h4>
-          <p>Wefunder community round uses an uncapped MFN SAFE (terms to be finalized). Private placement offers Series Seed Preferred Stock with standard information rights, pro-rata participation, and voting rights.</p>
+          <p>Wefunder community round uses an MFN SAFE with a $20M post-money valuation cap and no discount. Private placement offers Series Seed Preferred Stock with standard information rights, pro-rata participation, and voting rights.</p>
         </div>
         <div class="faq-item glass-box">
           <h4>How will the funds be used?</h4>
@@ -485,7 +510,7 @@ import Layout from '../layouts/Layout.astro';
         </div>
         <div class="faq-item glass-box">
           <h4>Who is on the team?</h4>
-          <p>Aaron Evans (CEO/Chief Scientist — inventor of TVC) and Natasha (CTO — control architect). Post-seed hires include Senior CFD Engineer, Mechatronics Engineer, Embedded SW Engineer, and Marine Test Pilot.</p>
+          <p>Aaron Evans (CEO/Chief Scientist — inventor of TVC), Gabriel Grünbaum (Business Development &amp; Strategy), and Natasha (CTO — control architect). Post-seed hires include Senior CFD Engineer, Mechatronics Engineer, Embedded SW Engineer, and Marine Test Pilot.</p>
         </div>
         <div class="faq-item glass-box">
           <h4>What is the target market?</h4>
@@ -494,6 +519,14 @@ import Layout from '../layouts/Layout.astro';
         <div class="faq-item glass-box">
           <h4>What regulatory approvals are needed?</h4>
           <p>USCG and ABYC certification for electric propulsion systems, IP strategy and filings, insurance, and legal counsel.</p>
+        </div>
+        <div class="faq-item glass-box">
+          <h4>What happens if the $3M minimum isn\u2019t reached?</h4>
+          <p>The Wefunder campaign is in testing-the-waters mode: reservations are non-binding indications of interest, and no money changes hands. If we don\u2019t see a path to the $3M minimum, no Form C is filed and no investments are collected — reservers are simply released.</p>
+        </div>
+        <div class="faq-item glass-box">
+          <h4>When will the round actually open for investment?</h4>
+          <p>After testing-the-waters concludes, we file a Form C with the SEC and open the live round on Wefunder. Reservations convert on a first-come basis, with early-bird terms for the earliest backers. Join the reserve list to be notified.</p>
         </div>
         <div class="faq-item glass-box">
           <h4>How does TVC handle failure scenarios?</h4>
@@ -616,8 +649,11 @@ import Layout from '../layouts/Layout.astro';
           <a href="/DATA_ROOM_TEMPLATES/" class="button button-secondary button-lg" target="_blank" rel="noopener">
             View Data Room
           </a>
+          <a href="mailto:hello@fluiditymarine.com?subject=Investor%20intro%20call%20%E2%80%94%20Fluidity%20Marine" class="button button-secondary button-lg">
+            Schedule a Call
+          </a>
         </div>
-        <p class="portal-contact">Questions? Contact <a href="mailto:hello@fluiditymarine.com">hello@fluiditymarine.com</a></p>
+        <p class="portal-contact">Writing a larger check ($50K+)? <a href="mailto:hello@fluiditymarine.com?subject=Investor%20intro%20call%20%E2%80%94%20Fluidity%20Marine">Schedule a call with the founder</a> — or email <a href="mailto:hello@fluiditymarine.com">hello@fluiditymarine.com</a></p>
       </div>
     </section>
   </main>
@@ -848,6 +884,22 @@ import Layout from '../layouts/Layout.astro';
 
   .team-lead { grid-column: 1 / -1; }
 
+  .team-photo {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 2px solid rgba(0, 240, 255, 0.35);
+  }
+  .team-linkedin {
+    display: inline-block;
+    margin-top: 0.6rem;
+    font-size: 0.85rem;
+    color: var(--cyan);
+    text-decoration: none;
+  }
+  .team-linkedin:hover { text-decoration: underline; }
   .team-avatar {
     width: 64px;
     height: 64px;
@@ -1356,5 +1408,44 @@ import Layout from '../layouts/Layout.astro';
     .market-stats { grid-template-columns: 1fr; }
     .exit-timeline { grid-template-columns: 1fr; }
     .profit-box { padding: 2rem; }
+  }
+  /* ─── Sticky deal box ─── */
+  .deal-box {
+    position: sticky;
+    top: 72px;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 1.5rem auto;
+    max-width: 1100px;
+    padding: 0.8rem 1.25rem;
+    background: rgba(10, 10, 15, 0.92);
+    border: 1px solid rgba(0, 240, 255, 0.25);
+    border-radius: 14px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 240, 255, 0.08);
+  }
+  .deal-box-terms { display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap; font-size: 0.95rem; color: var(--text-muted); }
+  .deal-box-terms strong { color: var(--text); }
+  .deal-dot { color: var(--cyan-dim); }
+  .deal-box-cta { white-space: nowrap; }
+  .postmoney-note {
+    margin-top: 1.25rem;
+    font-size: 0.92rem;
+    color: var(--text-muted);
+    border-left: 3px solid var(--cyan-dim);
+    padding-left: 1rem;
+  }
+  .disclaimer-note {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    opacity: 0.75;
+    margin-top: -0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  @media (max-width: 768px) {
+    .deal-box { top: 64px; flex-direction: column; text-align: center; }
   }
 </style>
