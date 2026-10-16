@@ -2,7 +2,7 @@
 
 **The Operating System of the Water.**
 
-Active Boundary Layer Thrust Vectoring (ABLTV) — a proprietary rudderless marine propulsion system that replaces mechanical appendages with a synchronized array of software-defined thrust nodes.
+Thrust Vector Control (TVC) — a rudderless marine propulsion system that replaces mechanical appendages with a synchronized array of software-defined thrust nodes.
 
 ## Tech Stack
 
@@ -15,7 +15,7 @@ Active Boundary Layer Thrust Vectoring (ABLTV) — a proprietary rudderless mari
 | Route | Content |
 |-------|---------|
 | `/` | Home — Hero, particle animation, campaign alert |
-| `/technology` | ABLTV deep dive, technical specs, comparison |
+| `/technology` | TVC deep dive, technical specs, comparison |
 | `/about` | Company narrative, mission, The Floating Bar |
 | `/investors` | Seed round pitch, thesis, roadmap |
 | `/press` | Media kit, brand assets, narrative brief |
