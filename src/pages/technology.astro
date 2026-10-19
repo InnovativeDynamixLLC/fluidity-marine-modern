@@ -190,48 +190,38 @@ import Layout from '../layouts/Layout.astro';
               <text x="80" y="114" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="9" font-family="Inter">INLET</text>
               <text x="80" y="175" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="8" font-family="Inter">Circular</text>
 
-              <!-- Transition / Venturi body -->
-              <path d="M120 70 L280 40 L420 40 L540 60" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
-              <path d="M120 150 L280 180 L420 180 L540 160" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
+              <!-- Venturi duct: converges to throat (minimum area), then diverges to exit -->
+              <path d="M120 70 L300 95 L540 60" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
+              <path d="M120 150 L300 125 L540 160" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
               <path d="M120 70 L120 150" stroke="rgba(0,240,255,0.15)" stroke-width="1"/>
-              <path d="M540 60 L540 160" stroke="rgba(0,240,255,0.15)" stroke-width="1"/>
 
-              <!-- Venturi body fill -->
-              <path d="M120 70 L280 40 L420 40 L540 60 L540 160 L420 180 L280 180 L120 150 Z" fill="rgba(0,240,255,0.03)" stroke="rgba(0,240,255,0.2)" stroke-width="1"/>
+              <!-- Duct fill -->
+              <path d="M120 70 L300 95 L540 60 L540 160 L300 125 L120 150 Z" fill="rgba(0,240,255,0.03)" stroke="rgba(0,240,255,0.2)" stroke-width="1"/>
 
-              <!-- Flow arrows inside -->
-              <path d="M160 110 L220 110" stroke="rgba(0,240,255,0.3)" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
-              <path d="M300 110 L360 110" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
-              <path d="M440 110 L500 110" stroke="rgba(0,240,255,0.5)" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <!-- Flow arrows (accelerating through throat) -->
+              <path d="M160 110 L215 110" stroke="rgba(0,240,255,0.3)" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <path d="M265 110 L320 110" stroke="rgba(0,240,255,0.45)" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <path d="M370 110 L425 110" stroke="rgba(0,240,255,0.5)" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <path d="M465 110 L515 110" stroke="rgba(0,240,255,0.5)" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
 
-              <!-- Throat label -->
+              <!-- Throat marker (true minimum area) -->
+              <line x1="300" y1="82" x2="300" y2="138" stroke="rgba(0,240,255,0.35)" stroke-width="1" stroke-dasharray="4 3"/>
               <text x="300" y="30" text-anchor="middle" fill="rgba(0,240,255,0.4)" font-size="8" font-family="Inter">Throat (minimum area)</text>
-              <line x1="300" y1="35" x2="300" y2="42" stroke="rgba(0,240,255,0.2)" stroke-width="0.5"/>
+              <line x1="300" y1="35" x2="300" y2="78" stroke="rgba(0,240,255,0.2)" stroke-width="0.5"/>
 
-              <!-- Exit (rectangular with rounded edges) -->
-              <rect x="540" y="55" width="80" height="110" rx="12" ry="12" fill="rgba(0,240,255,0.06)" stroke="rgba(0,240,255,0.35)" stroke-width="1.5"/>
-              <text x="580" y="100" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="9" font-family="Inter" font-weight="600">EXIT</text>
-              <text x="580" y="115" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="8" font-family="Inter">Rectangular</text>
-              <text x="580" y="130" text-anchor="middle" fill="rgba(148,163,184,0.3)" font-size="7" font-family="Inter">rounded edges</text>
+              <!-- Exit lip: rectangular face with rounded edges -->
+              <rect x="532" y="52" width="20" height="116" rx="10" fill="rgba(0,240,255,0.08)" stroke="rgba(0,240,255,0.35)" stroke-width="1.5"/>
+              <text x="542" y="192" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="9" font-family="Inter" font-weight="600">EXIT</text>
+              <text x="542" y="205" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="7" font-family="Inter">Rectangular &#183; rounded edges</text>
 
               <!-- Sheet jet exiting -->
-              <path d="M620 60 C640 60, 660 65, 680 70" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-              <path d="M620 160 C640 160, 660 155, 680 150" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-              <path d="M620 60 L680 70" stroke="rgba(0,240,255,0.15)" stroke-width="0.5"/>
-              <path d="M620 160 L680 150" stroke="rgba(0,240,255,0.15)" stroke-width="0.5"/>
-
-              <!-- Sheet jet fill -->
-              <path d="M620 60 L680 70 L680 150 L620 160 Z" fill="rgba(0,240,255,0.06)"/>
+              <path d="M552 64 C600 64, 650 70, 690 74" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              <path d="M552 156 C600 156, 650 150, 690 146" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              <path d="M552 64 L690 74 L690 146 L552 156 Z" fill="rgba(0,240,255,0.06)"/>
 
               <!-- Sheet label -->
-              <text x="665" y="115" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="8" font-family="Inter" font-weight="600">SHEET</text>
-              <text x="665" y="127" text-anchor="middle" fill="rgba(0,240,255,0.35)" font-size="7" font-family="Inter">JET</text>
-
-              <!-- Dimension arrows -->
-              <line x1="540" y1="45" x2="620" y2="45" stroke="rgba(148,163,184,0.2)" stroke-width="0.5"/>
-              <line x1="540" y1="48" x2="540" y2="42" stroke="rgba(148,163,184,0.2)" stroke-width="0.5"/>
-              <line x1="620" y1="48" x2="620" y2="42" stroke="rgba(148,163,184,0.2)" stroke-width="0.5"/>
-              <text x="580" y="42" text-anchor="middle" fill="rgba(148,163,184,0.3)" font-size="7" font-family="Inter">wide</text>
+              <text x="621" y="112" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="8" font-family="Inter" font-weight="600">SHEET</text>
+              <text x="621" y="124" text-anchor="middle" fill="rgba(0,240,255,0.35)" font-size="7" font-family="Inter">JET</text>
 
               <defs>
                 <marker id="arrowCyan" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
