@@ -190,38 +190,36 @@ import Layout from '../layouts/Layout.astro';
               <text x="80" y="114" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="9" font-family="Inter">INLET</text>
               <text x="80" y="175" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="8" font-family="Inter">Circular</text>
 
-              <!-- Venturi duct: converges to throat (minimum area), then diverges to exit -->
-              <path d="M120 70 L300 95 L540 60" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
-              <path d="M120 150 L300 125 L540 160" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
+              <!-- Converging duct: circular entry narrowing to the exit (narrowest point) -->
+              <path d="M120 70 L400 100" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
+              <path d="M120 150 L400 120" stroke="rgba(0,240,255,0.25)" stroke-width="1.5" fill="none"/>
               <path d="M120 70 L120 150" stroke="rgba(0,240,255,0.15)" stroke-width="1"/>
 
               <!-- Duct fill -->
-              <path d="M120 70 L300 95 L540 60 L540 160 L300 125 L120 150 Z" fill="rgba(0,240,255,0.03)" stroke="rgba(0,240,255,0.2)" stroke-width="1"/>
+              <path d="M120 70 L400 100 L400 120 L120 150 Z" fill="rgba(0,240,255,0.03)" stroke="rgba(0,240,255,0.2)" stroke-width="1"/>
 
-              <!-- Flow arrows (accelerating through throat) -->
+              <!-- Flow arrows (accelerating toward exit) -->
               <path d="M160 110 L215 110" stroke="rgba(0,240,255,0.3)" stroke-width="1.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
-              <path d="M265 110 L320 110" stroke="rgba(0,240,255,0.45)" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
-              <path d="M370 110 L425 110" stroke="rgba(0,240,255,0.5)" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
-              <path d="M465 110 L515 110" stroke="rgba(0,240,255,0.5)" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <path d="M255 110 L310 110" stroke="rgba(0,240,255,0.45)" stroke-width="2" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
+              <path d="M335 110 L390 110" stroke="rgba(0,240,255,0.5)" stroke-width="2.5" stroke-linecap="round" marker-end="url(#arrowCyan)"/>
 
-              <!-- Throat marker (true minimum area) -->
-              <line x1="300" y1="82" x2="300" y2="138" stroke="rgba(0,240,255,0.35)" stroke-width="1" stroke-dasharray="4 3"/>
-              <text x="300" y="30" text-anchor="middle" fill="rgba(0,240,255,0.4)" font-size="8" font-family="Inter">Throat (minimum area)</text>
-              <line x1="300" y1="35" x2="300" y2="78" stroke="rgba(0,240,255,0.2)" stroke-width="0.5"/>
+              <!-- Exit marker: the narrowest point of the Venturi -->
+              <line x1="400" y1="88" x2="400" y2="132" stroke="rgba(0,240,255,0.35)" stroke-width="1" stroke-dasharray="4 3"/>
+              <text x="400" y="28" text-anchor="middle" fill="rgba(0,240,255,0.4)" font-size="8" font-family="Inter">EXIT &#8212; narrowest point</text>
+              <line x1="400" y1="33" x2="400" y2="84" stroke="rgba(0,240,255,0.2)" stroke-width="0.5"/>
 
-              <!-- Exit lip: rectangular face with rounded edges -->
-              <rect x="532" y="52" width="20" height="116" rx="10" fill="rgba(0,240,255,0.08)" stroke="rgba(0,240,255,0.35)" stroke-width="1.5"/>
-              <text x="542" y="192" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="9" font-family="Inter" font-weight="600">EXIT</text>
-              <text x="542" y="205" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="7" font-family="Inter">Rectangular &#183; rounded edges</text>
+              <!-- Connector to exit-face view -->
+              <line x1="406" y1="110" x2="444" y2="110" stroke="rgba(148,163,184,0.25)" stroke-width="0.75" stroke-dasharray="3 3"/>
+
+              <!-- Exit face (front view): wide, flat rectangle with rounded edges -->
+              <rect x="450" y="95" width="130" height="30" rx="15" fill="rgba(0,240,255,0.08)" stroke="rgba(0,240,255,0.35)" stroke-width="1.5"/>
+              <text x="515" y="150" text-anchor="middle" fill="rgba(148,163,184,0.4)" font-size="8" font-family="Inter">Flat rectangular exit</text>
 
               <!-- Sheet jet exiting -->
-              <path d="M552 64 C600 64, 650 70, 690 74" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-              <path d="M552 156 C600 156, 650 150, 690 146" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
-              <path d="M552 64 L690 74 L690 146 L552 156 Z" fill="rgba(0,240,255,0.06)"/>
-
-              <!-- Sheet label -->
-              <text x="621" y="112" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="8" font-family="Inter" font-weight="600">SHEET</text>
-              <text x="621" y="124" text-anchor="middle" fill="rgba(0,240,255,0.35)" font-size="7" font-family="Inter">JET</text>
+              <path d="M580 98 L690 102" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              <path d="M580 122 L690 118" stroke="rgba(0,240,255,0.4)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+              <path d="M580 98 L690 102 L690 118 L580 122 Z" fill="rgba(0,240,255,0.06)"/>
+              <text x="635" y="152" text-anchor="middle" fill="rgba(0,240,255,0.5)" font-size="8" font-family="Inter" font-weight="600">SHEET JET</text>
 
               <defs>
                 <marker id="arrowCyan" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto">
@@ -230,7 +228,7 @@ import Layout from '../layouts/Layout.astro';
               </defs>
             </svg>
           </div>
-          <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem;">Each nozzle transitions from a circular inlet through a Venturi throat to a rectangular exit with rounded edges. The 7 nozzles together produce a continuous flat sheet jet across the transom.</p>
+          <p style="margin-top: 1rem; color: var(--text-muted); font-size: 0.85rem;">Each nozzle transitions from a circular inlet to a flat rectangular exit &#8212; the narrowest point of the Venturi. The 7 nozzles together produce a continuous flat sheet jet across the transom.</p>
         </div>
       </div>
     </section>
